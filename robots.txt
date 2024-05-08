@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /
+
 Disallow: /phpfiles/actions.php
 Disallow: /phpfiles/forumactions.php
 Disallow: /i/*
