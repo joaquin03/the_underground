@@ -1,0 +1,72 @@
+<h1>{h1title}</h1>
+
+
+
+<div class="wideleft">
+<div class="onlymobile">
+<div id="showmembers" style="display:none;">
+<h2>Search Filter</h2>
+<form id="form1" name="form1" method="get" action="">
+<span class="formt">Gender</span>
+<select name="sex" class="formfield width100" id="sex">{sex}</select>
+<span class="formt">Aged</span>
+<input onfocus="this.value=''" name="from" type="text" class="formfield" id="from" value="From Age" style="float:left;width:110px;display:inline-block;"/><span class="grey" style="float:left;display:inline-block;width:30px;padding-top:10px;text-align:center;">to</span>
+<input name="to" type="text" class="formfield" onfocus="this.value=''" id="to" value="To Age" style="float:left;width:110px;display:inline-block;"/>
+<div style="clear:both;"></div>
+<span class="formt">Sexual Preference</span>
+<select name="sex_pref" class="formfield width100" id="sex_pref">{sex_pref}</select>
+<span class="formt">Relationship Status</span>
+<select name="sex_relstatus" class="formfield width100" id="sex_relstatus">{sex_relstatus}</select>
+<span class="formt">Profile Picture</span>
+<input name="photo" type="checkbox" class="" id="photo" value="1" {pic}/>
+<div class="space10"></div>
+<span class="formt">Country</span>
+<select name="country" size="1" class="formfield width100">{countries}</select>
+<span class="formt">Keywords <span class="grey">&middot; City/Town - About</span></span>
+<input name="keywords" type="text" class="formfield width100" id="keywords" value="{keywords}" size="30"/>
+<input type="hidden" value="search" name="file" /><input type="hidden" value="members" name="mod" />
+<input name="button" type="submit" class="button" id="button" value="Filter" />
+<div class="space30"></div>
+</form>
+</div>
+<div id="showbutton">
+<span class="button" onClick="hide('showbutton');show('showmembers')">Show Search Filter</span>
+<div class="space20"></div>
+</div>
+</div>
+{members}
+{pagination}
+
+</div>
+<div class="narrowright">
+
+<div class="onlyfull">
+<h2>Search Filter</h2>
+<form id="form1" name="form1" method="get" action="">
+<span class="formt">Gender</span>
+<select name="sex" class="formfield width100" id="sex">{sex}</select>
+<span class="formt">Aged</span>
+<input onfocus="this.value=''" name="from" type="text" class="formfield" id="from" value="{f}" style="float:left;width:110px;display:inline-block;"/><span class="grey" style="float:left;display:inline-block;width:30px;padding-top:10px;text-align:center;">to</span>
+<input name="to" type="text" class="formfield" onfocus="this.value=''" id="to" value="{t}" style="float:left;width:110px;display:inline-block;"/>
+<div style="clear:both;"></div>
+<span class="formt">Sexual Preference</span>
+<select name="sex_pref" class="formfield width100" id="sex_pref">{sex_pref}</select>
+<span class="formt">Relationship Status</span>
+<select name="sex_relstatus" class="formfield width100" id="sex_relstatus">{sex_relstatus}</select>
+<span class="formt">Profile Picture</span>
+<input name="photo" type="checkbox" class="" id="photo" value="1" {pic}/>
+<div class="space10"></div>
+<span class="formt">Country</span>
+<select name="country" size="1" class="formfield width100">{countries}</select>
+<span class="formt">Keywords <span class="grey">&middot; City/Town - About</span></span>
+<input name="keywords" type="text" class="formfield width100" id="keywords" value="{keywords}" size="30"/>
+<input type="hidden" value="search" name="file" /><input type="hidden" value="members" name="mod" />
+<input name="button" type="submit" class="button" id="button" value="Filter" />
+</form>
+<div class="space30"></div>
+
+</div>
+{lastrightad}
+
+</div>
+<div class="clear"></div>

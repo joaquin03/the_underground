@@ -1,0 +1,46 @@
+<h1>Edit Your Profile Info</h1>
+<div class="wideleft">
+<form id="form1" name="form1" method="post" action="">
+<h2>General Profile Information</h2>
+<span class="formt">Username<span class="grey"> &middot; Can Not be Edited</span></span>
+<input name="username2" type="text" READONLY class="formfield" id="username2" value="{username}" size="45"/>
+<span class="formt">Gender</span>
+<select name="sex" class="formfield" id="sex">{sex}</select>
+<span class="formt">Country</span>
+<select name="country" size="1" class="formfield">{countries}</select>
+<span class="formt">Town/City</span>
+<input name="town" type="text" class="formfield" id="town" size="20" value="{town}"/>
+<span class="formt">About Yourself</span>
+<textarea name="about" rows="4" class="formfield" id="about" style="width:100%;resize: vertical;">{about}</textarea>
+<div class="space30"></div>
+<h2>Non Profile Information</h2>
+<span class="formt">Email Address<span class="labelerror">{em2}</span></span>
+<input name="email" type="text" class="formfield {em1}" id="email" size="45" value="{email}"/>
+{new1}
+<span class="formt">New Email Address<span class="grey"> &middot; To be Validated</span></span>
+<input name="newemail" type="text" READONLY class="formfield" id="newemail" value="{newemail}" size="45"/>
+{new2}
+<span class="formt">Password <span class="grey">Only if Changing Password</span></span>
+<input name="password" type="password" class="formfield" id="password" value="" size="45" />
+<div class="space30"></div>
+<h2>Sexual Preferences and Information</h2>
+<span class="formt">Relationship Status</span>
+<select name="sex_relstatus" class="formfield" id="sex_relstatus">{sex_relstatus}</select>
+<span class="formt">Sexual Preference</span>
+<select name="sex_pref" class="formfield" id="sex_pref">{sex_pref}</select>
+<span class="formt">Favourite Sex Position</span>
+<input name="sex_position" type="text" class="formfield" id="sex_position" size="45" value="{sex_position}"/>
+<span class="formt">Looking For</span>
+<input name="sex_lookingfor" type="text" class="formfield" id="sex_lookingfor" size="45" value="{sex_lookingfor}"/>
+<span class="formt">Your Ideal Sex Frequency</span>
+<select name="sex_freq" id="sex_freq" class="formfield">{sex_freq}</select>
+<div class="space20"></div>
+<input name="button" type="submit" class="button" id="button" value="Update Info" />
+</form>
+
+
+</div>
+<div class="narrowright">
+{lastrightad}
+</div>
+<div class="clear"></div>

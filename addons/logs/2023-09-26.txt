@@ -1,0 +1,34 @@
+Time : 22:09:01
+IP : 84.247.59.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 18:32:08
+IP : 69.246.173.37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 18:07:04
+IP : 139.28.176.181
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ness') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIKE ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Bo'ness') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIKE 'Female' AND (dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%' OR dob_date LIKE '%2004%' OR dob_date LIKE '%2005%') AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Bo'ness')
+
+Time : 14:17:08
+IP : 172.56.34.43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 686350 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 686350 AND `from` =  AND delto = 'n') OR (`from` = 686350 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:00:30
+IP : 172.59.104.14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 09:00:19
+IP : 172.59.104.14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 01:46:40
+IP : 99.156.82.202
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'round rock' tx') FROM members WHERE id != 100 AND country = 'United States of Am' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Austin 'round rock' tx') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Male' AND (dob_date LIKE '%1958%' OR dob_date LIKE '%1959%' OR dob_date LIKE '%1960%' OR dob_date LIKE '%1961%' OR dob_date LIKE '%1962%' OR dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%') AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Austin 'round rock' tx')

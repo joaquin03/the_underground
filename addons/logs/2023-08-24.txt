@@ -1,0 +1,59 @@
+Time : 19:58:36
+IP : 68.227.100.201
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 735253 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 735253 AND `from` =  AND delto = 'n') OR (`from` = 735253 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:33:18
+IP : 209.143.6.228
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D720284' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D720284 AND type = 'member'
+
+Time : 19:07:13
+IP : 63.117.14.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'member'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D720= AND type = 'member'
+
+Time : 19:07:12
+IP : 64.203.194.197
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D720266' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D720266 AND type = 'member'
+
+Time : 15:24:29
+IP : 107.77.211.217
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 15:24:29
+IP : 107.77.211.217
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 15:24:29
+IP : 107.77.211.217
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 15:24:29
+IP : 107.77.211.217
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 12:41:42
+IP : 40.77.167.238
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND area =    ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 3 AND state =  AND area =    ORDER BY stamp DESC
+
+Time : 10:13:33
+IP : 149.75.232.220
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 07:18:13
+IP : 40.77.167.137
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 59 AND area =    ORDER BY stamp DESC
+
+Time : 04:16:13
+IP : 172.59.104.183
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'

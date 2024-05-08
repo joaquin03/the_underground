@@ -1,0 +1,654 @@
+Time : 23:55:40
+IP : 73.217.15.92
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788817 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788817 AND `from` =  AND delto = 'n') OR (`from` = 788817 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:54:44
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '716809galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 716809galleries AND type = 'member'
+
+Time : 23:53:21
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '721364personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 721364personals AND type = 'member'
+
+Time : 23:45:41
+IP : 35.91.101.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '757488groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 757488groups AND type = 'member'
+
+Time : 23:44:17
+IP : 18.236.66.103
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '715313groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 715313groups AND type = 'member'
+
+Time : 23:40:45
+IP : 72.205.231.4
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 642708 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 642708 AND `from` =  AND delto = 'n') OR (`from` = 642708 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:40:37
+IP : 72.205.231.4
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 642708 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 642708 AND `from` =  AND delto = 'n') OR (`from` = 642708 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:30:33
+IP : 18.236.101.48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '716809followers' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 716809followers AND type = 'member'
+
+Time : 23:19:06
+IP : 174.213.161.175
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790560 AND `from` =  AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:19:01
+IP : 174.213.161.175
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790560 AND `from` =  AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:18:58
+IP : 174.213.161.175
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790560 AND `from` =  AND delto = 'n') OR (`from` = 790560 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 22:56:10
+IP : 54.186.40.154
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '716809following' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 716809following AND type = 'member'
+
+Time : 22:47:54
+IP : 54.244.193.109
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '716809personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 716809personals AND type = 'member'
+
+Time : 22:28:25
+IP : 34.214.241.194
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '719085galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 719085galleries AND type = 'member'
+
+Time : 22:09:59
+IP : 35.85.64.135
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '757488personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 757488personals AND type = 'member'
+
+Time : 21:18:22
+IP : 34.220.243.37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '305249personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 305249personals AND type = 'member'
+
+Time : 21:16:39
+IP : 18.237.91.148
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '482168groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 482168groups AND type = 'member'
+
+Time : 21:15:05
+IP : 18.236.101.48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '480681following' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 480681following AND type = 'member'
+
+Time : 21:13:37
+IP : 174.171.25.210
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 717179 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 717179 AND `from` =  AND delto = 'n') OR (`from` = 717179 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:01:16
+IP : 34.217.102.54
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '478507galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 478507galleries AND type = 'member'
+
+Time : 20:59:05
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '163310groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 163310groups AND type = 'member'
+
+Time : 20:52:36
+IP : 35.89.28.7
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '361992groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 361992groups AND type = 'member'
+
+Time : 20:38:31
+IP : 18.236.101.48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '337632groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 337632groups AND type = 'member'
+
+Time : 20:34:51
+IP : 35.90.12.72
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '479448galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 479448galleries AND type = 'member'
+
+Time : 20:31:22
+IP : 34.209.250.131
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '344075galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 344075galleries AND type = 'member'
+
+Time : 20:19:40
+IP : 35.92.49.34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '478507groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 478507groups AND type = 'member'
+
+Time : 20:12:40
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '381144groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 381144groups AND type = 'member'
+
+Time : 20:10:54
+IP : 107.77.199.187
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 620762 AND `from` =  AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:10:26
+IP : 107.77.199.187
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 620762 AND `from` =  AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:10:13
+IP : 107.77.199.187
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 620762 AND `from` =  AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:08:19
+IP : 107.77.199.187
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 620762 AND `from` =  AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:08:18
+IP : 107.77.199.187
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 620762 AND `from` =  AND delto = 'n') OR (`from` = 620762 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:03:51
+IP : 34.217.102.54
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '321362groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 321362groups AND type = 'member'
+
+Time : 19:58:29
+IP : 34.210.130.100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '479448personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 479448personals AND type = 'member'
+
+Time : 19:48:30
+IP : 54.188.55.250
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '266773personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 266773personals AND type = 'member'
+
+Time : 19:43:18
+IP : 34.220.243.37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '479448groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 479448groups AND type = 'member'
+
+Time : 19:41:07
+IP : 52.37.103.159
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '266773groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 266773groups AND type = 'member'
+
+Time : 19:38:18
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:38:17
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:38:12
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:38:09
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:38:01
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:32:19
+IP : 18.236.66.103
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '316701personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 316701personals AND type = 'member'
+
+Time : 19:30:15
+IP : 35.87.48.125
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '321362personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 321362personals AND type = 'member'
+
+Time : 19:28:43
+IP : 174.247.186.23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789410 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789410 AND `from` =  AND delto = 'n') OR (`from` = 789410 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:22:33
+IP : 34.215.28.236
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '481780galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 481780galleries AND type = 'member'
+
+Time : 19:08:51
+IP : 67.3.39.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 729361 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 729361 AND `from` =  AND delto = 'n') OR (`from` = 729361 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:55:53
+IP : 34.210.130.100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '357225personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 357225personals AND type = 'member'
+
+Time : 18:55:03
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '480681groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 480681groups AND type = 'member'
+
+Time : 18:53:18
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '586971followers' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 586971followers AND type = 'member'
+
+Time : 18:38:48
+IP : 35.92.49.34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '586971following' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 586971following AND type = 'member'
+
+Time : 18:28:04
+IP : 52.32.44.60
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '586971personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 586971personals AND type = 'member'
+
+Time : 18:20:43
+IP : 172.56.197.163
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 765200 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 765200 AND `from` =  AND delto = 'n') OR (`from` = 765200 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:07:26
+IP : 174.208.42.137
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788096 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788096 AND `from` =  AND delto = 'n') OR (`from` = 788096 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:07:21
+IP : 174.208.42.137
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788096 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788096 AND `from` =  AND delto = 'n') OR (`from` = 788096 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:07:08
+IP : 52.37.103.159
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '635448personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 635448personals AND type = 'member'
+
+Time : 17:51:51
+IP : 54.190.225.2
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '635448groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 635448groups AND type = 'member'
+
+Time : 17:50:34
+IP : 92.10.44.20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790568 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790568 AND `from` =  AND delto = 'n') OR (`from` = 790568 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:50:07
+IP : 54.212.40.142
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '586971galleries' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 586971galleries AND type = 'member'
+
+Time : 17:37:49
+IP : 92.10.44.20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790568 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790568 AND `from` =  AND delto = 'n') OR (`from` = 790568 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:36:28
+IP : 45.29.171.184
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:36:24
+IP : 45.29.171.184
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:33:50
+IP : 54.186.171.83
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '124534following' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 124534following AND type = 'member'
+
+Time : 17:30:12
+IP : 99.90.185.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788202 AND `from` =  AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:30:07
+IP : 99.90.185.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788202 AND `from` =  AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:29:54
+IP : 99.90.185.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788202 AND `from` =  AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:29:48
+IP : 99.90.185.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 788202 AND `from` =  AND delto = 'n') OR (`from` = 788202 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:25:44
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:24:55
+IP : 54.185.226.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '124534groups' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 124534groups AND type = 'member'
+
+Time : 17:24:03
+IP : 54.149.57.186
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '124534followers' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 124534followers AND type = 'member'
+
+Time : 17:00:14
+IP : 52.37.52.14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7947members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('WOMEN Around Sonoma County Area 707') FROM groups WHERE id != 7947members  AND MATCH (title,slogan,description) AGAINST ('WOMEN Around Sonoma County Area 707') LIMIT 15
+
+Time : 16:58:19
+IP : 52.27.47.146
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5424n' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('707 sex secret') FROM groups WHERE id != 5424n  AND MATCH (title,slogan,description) AGAINST ('707 sex secret') LIMIT 15
+
+Time : 16:54:36
+IP : 35.90.12.72
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5639members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('707 fuck milfs and napa ca') FROM groups WHERE id != 5639members  AND MATCH (title,slogan,description) AGAINST ('707 fuck milfs and napa ca') LIMIT 15
+
+Time : 16:49:38
+IP : 35.91.101.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6565members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('707 541 group sex orgy') FROM groups WHERE id != 6565members  AND MATCH (title,slogan,description) AGAINST ('707 541 group sex orgy') LIMIT 15
+
+Time : 16:45:21
+IP : 35.147.130.72
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770275 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770275 AND `from` =  AND delto = 'n') OR (`from` = 770275 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:43:18
+IP : 174.219.133.46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 777085 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 777085 AND `from` =  AND delto = 'n') OR (`from` = 777085 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:29:26
+IP : 172.58.253.195
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 753805 AND `from` =  AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:29:20
+IP : 172.58.253.195
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 753805 AND `from` =  AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:29:16
+IP : 172.58.253.195
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 753805 AND `from` =  AND delto = 'n') OR (`from` = 753805 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:10:24
+IP : 68.63.9.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 16:04:14
+IP : 68.63.9.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 16:04:07
+IP : 68.63.9.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 15:38:27
+IP : 12.75.114.88
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 14:58:11
+IP : 139.64.165.198
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 766572 AND `from` =  AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:58:02
+IP : 139.64.165.198
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 766572 AND `from` =  AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:57:45
+IP : 139.64.165.198
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 766572 AND `from` =  AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:57:39
+IP : 139.64.165.198
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 766572 AND `from` =  AND delto = 'n') OR (`from` = 766572 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:23:16
+IP : 52.167.144.229
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 40 AND area =    ORDER BY stamp DESC
+
+Time : 12:26:17
+IP : 12.75.74.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 12:24:54
+IP : 12.75.74.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 12:24:47
+IP : 12.75.74.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 11:46:45
+IP : 98.203.174.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785607 AND `from` =  AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:46:17
+IP : 98.203.174.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785607 AND `from` =  AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:46:14
+IP : 98.203.174.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785607 AND `from` =  AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:46:04
+IP : 98.203.174.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785607 AND `from` =  AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:45:33
+IP : 98.203.174.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785607 AND `from` =  AND delto = 'n') OR (`from` = 785607 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 10:05:17
+IP : 108.147.36.48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 783279 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 783279 AND `from` =  AND delto = 'n') OR (`from` = 783279 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:18:46
+IP : 107.77.199.51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784781 AND `from` =  AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:18:20
+IP : 107.77.199.51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784781 AND `from` =  AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:18:14
+IP : 107.77.199.51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784781 AND `from` =  AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:18:07
+IP : 107.77.199.51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784781 AND `from` =  AND delto = 'n') OR (`from` = 784781 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:34:46
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:44
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:42
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:39
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:35
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:23
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:23:19
+IP : 47.215.216.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789949 AND `from` =  AND delto = 'n') OR (`from` = 789949 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:47:40
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:45:23
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:30:30
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:29:30
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:22:45
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:21:14
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:20:29
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:20:27
+IP : 166.196.61.79
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785335 AND `from` =  AND delto = 'n') OR (`from` = 785335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:04:45
+IP : 52.167.144.192
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 40 AND area =    ORDER BY stamp DESC
+
+Time : 05:49:05
+IP : 174.198.204.109
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784640 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784640 AND `from` =  AND delto = 'n') OR (`from` = 784640 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 04:02:16
+IP : 120.152.2.8
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 773691 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 773691 AND `from` =  AND delto = 'n') OR (`from` = 773691 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 04:02:10
+IP : 120.152.2.8
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 773691 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 773691 AND `from` =  AND delto = 'n') OR (`from` = 773691 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:22:19
+IP : 102.89.33.108
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790354 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790354 AND `from` =  AND delto = 'n') OR (`from` = 790354 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:07:56
+IP : 107.77.198.98
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 756843 AND `from` =  AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:07:42
+IP : 107.77.198.98
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 756843 AND `from` =  AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:04:16
+IP : 107.77.198.98
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 756843 AND `from` =  AND delto = 'n') OR (`from` = 756843 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 01:40:04
+IP : 73.175.171.212
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790441 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790441 AND `from` =  AND delto = 'n') OR (`from` = 790441 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 01:31:22
+IP : 45.155.42.83
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790435 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790435 AND `from` =  AND delto = 'n') OR (`from` = 790435 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 01:10:51
+IP : 166.205.124.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 545318 AND `from` =  AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 01:10:45
+IP : 166.205.124.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 545318 AND `from` =  AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 01:10:40
+IP : 166.205.124.42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 545318 AND `from` =  AND delto = 'n') OR (`from` = 545318 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 00:10:58
+IP : 107.127.14.68
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 00:10:58
+IP : 107.127.14.68
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5

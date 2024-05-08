@@ -1,0 +1,49 @@
+Time : 20:53:52
+IP : 174.242.79.205
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 31 AND area = 217/favicon.ico   ORDER BY stamp DESC
+
+Time : 20:53:52
+IP : 174.242.79.205
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 31 AND area = 217/favicon.ico   ORDER BY stamp DESC
+
+Time : 18:01:06
+IP : 40.77.167.238
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 60 AND area =    ORDER BY stamp DESC
+
+Time : 15:41:28
+IP : 202.7.250.140
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:41:27
+IP : 202.7.250.140
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:41:14
+IP : 202.7.250.140
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:41:10
+IP : 202.7.250.140
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:41:36
+IP : 52.167.144.29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 59 AND area =    ORDER BY stamp DESC
+
+Time : 08:38:33
+IP : 80.130.188.224
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 44/favicon.ico ORDER BY topics DESC LIMIT 5
+
+Time : 06:46:11
+IP : 172.56.96.60
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm fucking great at eating pussy Cortez Florida ') FROM members WHERE id != 100 A' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('I'm fucking great at eating pussy Cortez Florida ') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND (dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%') AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('I'm fucking great at eating pussy Cortez Florida ')

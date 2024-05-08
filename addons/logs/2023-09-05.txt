@@ -1,0 +1,54 @@
+Time : 21:07:29
+IP : 1.145.119.108
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:07:10
+IP : 1.145.119.108
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:07:08
+IP : 1.145.119.108
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 708326 AND `from` =  AND delto = 'n') OR (`from` = 708326 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:06:23
+IP : 172.59.225.114
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') FROM groups WHERE id != 6003/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') LIMIT 15
+
+Time : 18:06:23
+IP : 172.59.225.114
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') FROM groups WHERE id != 6003/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') LIMIT 15
+
+Time : 17:32:20
+IP : 71.221.13.141
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 737821 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 737821 AND `from` =  AND delto = 'n') OR (`from` = 737821 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:56:54
+IP : 68.97.116.180
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 48 AND category = 9/favicon.ico  ORDER BY stamp DESC
+
+Time : 09:56:54
+IP : 68.97.116.180
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 48 AND category = 9/favicon.ico  ORDER BY stamp DESC
+
+Time : 09:56:54
+IP : 68.97.116.180
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 48 AND category = 9/favicon.ico  ORDER BY stamp DESC
+
+Time : 05:49:55
+IP : 172.59.196.22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 05:49:45
+IP : 172.59.196.22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'

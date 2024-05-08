@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /phpfiles/actions.php
+Disallow: /phpfiles/forumactions.php
+Disallow: /i/*
+
+
+Sitemap: http://www.theundergroundsexclub.com/sitemap.xml
+
+
+
+User-agent: msnbot
+Crawl-delay: 10

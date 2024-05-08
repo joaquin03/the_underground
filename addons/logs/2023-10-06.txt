@@ -1,0 +1,56 @@
+Time : 23:10:48
+IP : 12.204.72.82
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Ferry ') FROM members WHERE id != 100 AND country = 'United States of America'' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Snead's Ferry ') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND (dob_date LIKE '%1933%' OR dob_date LIKE '%1934%' OR dob_date LIKE '%1935%' OR dob_date LIKE '%1936%' OR dob_date LIKE '%1937%' OR dob_date LIKE '%1938%' OR dob_date LIKE '%1939%' OR dob_date LIKE '%1940%' OR dob_date LIKE '%1941%' OR dob_date LIKE '%1942%' OR dob_date LIKE '%1943%' OR dob_date LIKE '%1944%' OR dob_date LIKE '%1945%' OR dob_date LIKE '%1946%' OR dob_date LIKE '%1947%' OR dob_date LIKE '%1948%' OR dob_date LIKE '%1949%' OR dob_date LIKE '%1950%' OR dob_date LIKE '%1951%' OR dob_date LIKE '%1952%' OR dob_date LIKE '%1953%' OR dob_date LIKE '%1954%' OR dob_date LIKE '%1955%' OR dob_date LIKE '%1956%' OR dob_date LIKE '%1957%' OR dob_date LIKE '%1958%' OR dob_date LIKE '%1959%' OR dob_date LIKE '%1960%' OR dob_date LIKE '%1961%' OR dob_date LIKE '%1962%' OR dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%' OR dob_date LIKE '%2004%' OR dob_date LIKE '%2005%') AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Snead's Ferry ')
+
+Time : 23:10:35
+IP : 12.204.72.82
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Ferry North Carolina ') FROM members WHERE id != 100 AND country = 'United Sta' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Snead's Ferry North Carolina ') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND (dob_date LIKE '%1933%' OR dob_date LIKE '%1934%' OR dob_date LIKE '%1935%' OR dob_date LIKE '%1936%' OR dob_date LIKE '%1937%' OR dob_date LIKE '%1938%' OR dob_date LIKE '%1939%' OR dob_date LIKE '%1940%' OR dob_date LIKE '%1941%' OR dob_date LIKE '%1942%' OR dob_date LIKE '%1943%' OR dob_date LIKE '%1944%' OR dob_date LIKE '%1945%' OR dob_date LIKE '%1946%' OR dob_date LIKE '%1947%' OR dob_date LIKE '%1948%' OR dob_date LIKE '%1949%' OR dob_date LIKE '%1950%' OR dob_date LIKE '%1951%' OR dob_date LIKE '%1952%' OR dob_date LIKE '%1953%' OR dob_date LIKE '%1954%' OR dob_date LIKE '%1955%' OR dob_date LIKE '%1956%' OR dob_date LIKE '%1957%' OR dob_date LIKE '%1958%' OR dob_date LIKE '%1959%' OR dob_date LIKE '%1960%' OR dob_date LIKE '%1961%' OR dob_date LIKE '%1962%' OR dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%' OR dob_date LIKE '%2004%' OR dob_date LIKE '%2005%') AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Snead's Ferry North Carolina ')
+
+Time : 21:56:16
+IP : 142.105.166.157
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MYCNA1Jg' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 21:56:14
+IP : 142.105.166.157
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MYrvSSoV' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 21:56:03
+IP : 142.105.166.157
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MYmjmH5p' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 18:13:16
+IP : 50.37.155.172
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Alene') FROM members WHERE id != 100 AND country = 'United States of America' AN' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Coeur d'Alene') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Coeur d'Alene')
+
+Time : 05:24:19
+IP : 185.44.145.137
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 05:24:18
+IP : 185.44.145.137
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:56:12
+IP : 83.104.172.30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+Time : 01:56:12
+IP : 83.104.172.30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+Time : 01:56:12
+IP : 83.104.172.30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+Time : 01:56:12
+IP : 83.104.172.30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15

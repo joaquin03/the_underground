@@ -1,0 +1,369 @@
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////  FONTS  ///*/
+.fstyle1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:700;
+}
+.tcentered{
+	text-align:center;
+}
+.tright{
+	text-align:right;
+}
+.italic{
+	font-style: italic;
+}
+.fs10{
+	font-size: 10px;
+}
+.fs12{
+	font-size: 12px;
+}
+.fs16{
+	font-size: 16px;
+}
+.fs22{
+	font-size: 22px;
+}
+.fs26{
+	font-size: 26px;
+}
+.fs36{
+	font-size: 36px;
+}
+.inline{
+	display:inline-block;
+}
+.block{
+	display:block;
+}
+.dnone{
+	display:none;
+}
+.green{
+	color: #0E9A26;
+}
+.red{
+	color: #FF4A4A;
+}
+.blue{
+	color:#006CD8;
+}
+.lightgrey{
+	color: #BBB;
+}
+.grey{
+	color: #777;
+}
+.white{
+	color:#fff;
+}
+.black{
+	color:#000;
+}
+.uctext{
+	text-transform:uppercase;
+}
+
+.pointer{
+cursor:pointer;
+}
+.message-g{
+	margin:0px 0px 20px 0px;
+	padding:8px 15px;
+	background-color:#0E9A26;
+	color:#FFFFFF;
+	display:block;
+}
+
+.message-r{
+	margin:0px 0px 20px 0px;
+	padding:8px 15px;
+	background-color:#FF4D4D;
+	color:#FFFFFF;
+	display:block;
+}
+.message-y{
+	margin:0px 0px 20px 0px;
+	padding:8px 15px;
+	background-color:#FFBF00;
+	color:#FFFFFF;
+	display:block;
+}
+.readtext{
+	line-height:1.8;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////  BITS  ///*/
+.clear{
+	clear:both;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+.onelinetext{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	display:block;
+}
+.mh400{
+	min-height:400px;
+}
+.width100{
+	width:100%;
+}
+.maxwidth100{
+	max-width:100%;
+}
+.mw103{
+	width:100%;
+	max-width:103px;
+}
+.one7th{
+	width:calc(100% / 7);
+}
+.one4th{
+	width:calc(100% / 4);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////  LINES AND SPACERS  ///*/
+.space1{
+	height:1px;
+}
+.space5{
+	height:5px;
+}
+.space-5{
+	margin-bottom:-5px;
+}
+.space10{
+	height:10px;
+}
+.space-10{
+	margin-bottom:-10px;
+}
+.space15{
+	height:15px;
+}
+.space20{
+	height:20px;
+}
+.space30{
+	height:30px;
+}
+#ajaxloading{
+	display:none;
+	margin:2px 0px 5px 0px;
+}
+.nomargin{
+	margin:0px;
+}
+.ml20{
+	margin-left:20px;
+}
+.m-1{
+	margin:-1px;
+}
+.m-5{
+	margin:-5px;
+}
+.m-10{
+	margin:-10px;
+}
+.divline{
+	height:10px;
+	border-bottom:2px solid #EEE;
+	margin-bottom:10px;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////  BOXES  ///*/
+.p10{
+	padding:10px;
+}
+.p20{
+	padding:20px;
+}
+#col1{
+	float:left;
+	margin-right:10px;
+}
+#col2{
+	float:left;
+}
+
+#lightgreybox{
+	padding:10px;
+	background-color:#FAFAFA;
+}
+.whitebg{
+	background-color:#FFF;
+}
+.redbg{
+	background-color:#FF4A4A;
+}
+.blackbg{
+	background-color:#000;
+}
+
+.disp50{
+	padding-left:50px;
+	display:block;
+}
+.disp70{
+	padding-left:70px;
+	display:block;
+}
+.quotebox{
+	background-color:#EEE;
+	padding:10px;
+	margin-bottom:20px;
+}
+
+
+
+/*----------------------------------------------   FORUM --------------------------------------------*/
+.forumleft{
+	padding:10px 120px 10px 0px;
+	display:block;
+	border-bottom:2px solid #EAEAEA;
+}
+.forumright{
+	border-left:2px solid #EAEAEA;
+	width:90px;
+	text-align:right;
+	margin:10px 0px 0px 10px;
+}
+.b0{
+	border:none;
+}
+
+
+
+/*----------------------------------------------   ICON SET --------------------------------------------*/
+.is
+{
+	display: inline-block;
+	background-image: url(https://static.theundergroundsexclub.com/images/layout/is.png);
+	background-repeat: no-repeat;
+	background-size: 300px 500px;
+}
+.fling{width: 125px;height: 55px;background-position: -0px -195px;margin:0px;}
+.meetlocals{width: 125px;height: 23px;background-position: -0px -172px;margin:0px;}
+.snapsext{width: 66px;height: 55px;background-position: -125px -195px;margin:0px;}
+.affairalert{width: 58px;height: 56px;background-position: -192px -195px;margin:0px;}
+.milfaholic{width: 116px;height: 32px;background-position: -0px -270px;margin:0px;}
+
+
+.star{width: 30px;height: 30px;background-position: -0px -35px;margin:-3px 5px 0px 0px;float:left;}
+.star:hover{background-position: -0px -65px;}
+.star2{width: 30px;height: 30px;background-position: -0px -65px;margin:-3px 5px 0px 0px;float:left;}
+.comment{width: 37px;height: 30px;background-position: -30px -35px;margin:-1px 5px 0px -2px;float:left;}
+.comment2{width: 37px;height: 30px;background-position: -30px -65px;margin:-1px 5px 0px -2px;float:left;}
+
+.miniuser{width: 20px;height: 20px;background-position: -0px -130px;margin:-0px 5px -4px 0px;}
+.minigroup{width: 20px;height: 20px;background-position: -20px -130px;margin:-0px 5px -4px 0px;}
+.ministory{width: 20px;height: 20px;background-position: -40px -130px;margin:-0px 5px -4px 0px;}
+.miniforum{width: 20px;height: 20px;background-position: -60px -130px;margin:-0px 5px -4px 0px;}
+.miniphoto{width: 20px;height: 20px;background-position: -80px -130px;margin:-0px 5px -4px 0px;}
+.minidown{width: 20px;height: 20px;background-position: -100px -130px;margin:-5px 0px -5px 20px;display:block;z-index:10;position: relative;}
+.miniright{width: 20px;height: 20px;background-position: -120px -130px;margin:3px 10px 3px 0px;}
+.minieye{width: 20px;height: 20px;background-position: -140px -130px;margin:-0px 5px -4px 0px;}
+.minicat{width: 20px;height: 20px;background-position: -160px -130px;margin:-0px 5px -4px 0px;}
+.minical{width: 20px;height: 20px;background-position: -180px -130px;margin:-0px 5px -4px 0px;}
+.miniurl{width: 20px;height: 20px;background-position: -200px -130px;margin:-0px 5px -4px 0px;}
+.minihelp{width: 20px;height: 20px;background-position: -220px -130px;margin:-0px 5px -4px 0px;}
+.miniinfo{width: 20px;height: 20px;background-position: -240px -130px;margin:-0px 5px -4px 0px;}
+.miniad{width: 20px;height: 20px;background-position: -260px -130px;margin:-0px 5px -4px 0px;}
+
+.emsmile{width: 15px;height: 15px;background-position: -0px -250px;margin:-2px 2px -4px 2px;}
+.emheart{width: 15px;height: 15px;background-position: -15px -250px;margin:-2px 2px -4px 2px;}
+.emsad{width: 15px;height: 15px;background-position: -30px -250px;margin:-2px 2px -4px 2px;}
+.emwink{width: 15px;height: 15px;background-position: -45px -250px;margin:-2px 2px -4px 2px;}
+
+
+/*-----------------------------------------------------------------  FORMS ------------------------------------------------------------------*/
+input {
+    border-radius: 0;
+}
+.formt{
+	padding:0px;
+	margin-bottom:5px;
+	display:block;
+}
+.singlelineform{
+	overflow: hidden;
+	padding-right: 5px;
+}
+.nooutline{
+	outline:none;
+}
+
+
+.formfield{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color:#222;
+	padding:6px 13px;
+	display:block;
+	background-color: #EAEAEA;
+	margin:0px 0px 10px 0px;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #EAEAEA;
+	border-radius: 0;
+}
+.m0{
+	margin:0px;
+}
+.checkbox{
+	vertical-align: bottom;
+	position: relative;top: 1px;
+	width: 13px;
+	height: 16px;padding: 0;
+	margin:0;
+	margin-right:5px;
+}
+.checkboxlabel{
+	display:block;
+	margin:10px 0px 10px 0px;
+}
+.error{
+	border:2px #FF4A4A solid;
+}
+.labelerror{
+	padding-left:5px;
+	color: #FF4A4A;
+}
+.tagsbutton{
+	background-color:#FF4A4A;
+	padding:1px 5px;
+	margin:0px 5px 5px 0px;
+	display:inline-block;
+	color:#FFF;
+}
+.tagsbutton:hover{
+	background-color:#000;
+}
+
+.smallgreybutton{
+	background-color:#BBB;
+	padding:1px 5px;
+	margin:0px 5px 5px 0px;
+	display:inline-block;
+	color:#FFF;
+}
+.smallgreybutton:hover{
+	background-color:#000;
+}

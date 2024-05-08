@@ -1,0 +1,10 @@
+Time : 20:55:59
+IP : 52.167.144.166
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 52 AND area =    ORDER BY stamp DESC
+
+Time : 17:18:33
+IP : 107.115.227.69
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 21 AND area = 131 AND category = 9/favicon.ico  ORDER BY stamp DESC
+

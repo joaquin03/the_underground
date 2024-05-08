@@ -1,0 +1,60 @@
+Time : 23:04:57
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:57
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:56
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:56
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:56
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:56
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 23:04:56
+IP : 104.175.79.86
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') FROM groups WHERE id != 6203/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Untamed Night Swinger Party') LIMIT 15
+
+Time : 22:10:57
+IP : 185.230.126.147
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 49/favicon.ico   ORDER BY stamp DESC
+
+Time : 22:10:57
+IP : 185.230.126.147
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 49/favicon.ico   ORDER BY stamp DESC
+
+Time : 22:10:57
+IP : 185.230.126.147
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 49/favicon.ico   ORDER BY stamp DESC
+
+Time : 22:10:57
+IP : 185.230.126.147
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 49/favicon.ico   ORDER BY stamp DESC
+
+Time : 21:52:40
+IP : 64.233.172.225
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MYjyxCV9' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+

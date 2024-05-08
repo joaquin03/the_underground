@@ -1,0 +1,35 @@
+Time : 22:02:07
+IP : 218.215.223.24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') FROM groups WHERE id != 4733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') LIMIT 15
+
+Time : 22:02:06
+IP : 218.215.223.24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') FROM groups WHERE id != 4733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') LIMIT 15
+
+Time : 22:02:06
+IP : 218.215.223.24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') FROM groups WHERE id != 4733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') LIMIT 15
+
+Time : 22:02:06
+IP : 218.215.223.24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') FROM groups WHERE id != 4733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('ALBANY&#8218; WEST AUSTRALIA') LIMIT 15
+
+Time : 18:59:03
+IP : 71.61.73.95
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 18:58:51
+IP : 71.61.73.95
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 12:06:36
+IP : 74.139.114.30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+

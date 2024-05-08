@@ -1,0 +1,25 @@
+<h1>{h1title}</h1>
+
+
+
+<div class="wideleft">
+  <form id="form1" name="form1" method="post" action="">
+  <select name="cat" class="formfield dropform inline mr5 mw120"  autocorrect="off" autocapitalize="off" autocomplete="off">
+  <option value="">All Categories</option>
+  {cats}
+  </select>
+  <input name="tags" type="text" class="formfield inline mr5 mw120" id="tags" value="{tags}" placeholder="tag words" autocorrect="off" autocapitalize="off"  autocomplete="off"   />
+  <input name="filter" type="submit" class="button" id="filter" value=">" />
+  </form>
+  <div class="divline"></div>
+
+{groups}
+{pagination}
+
+</div>
+<div class="narrowright">
+
+{lastrightad}
+
+</div>
+<div class="clear"></div>

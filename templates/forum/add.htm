@@ -1,0 +1,35 @@
+
+
+<h1>Add Forum Topic</h1>
+<div class="wideleft">
+<form id="Form" name="Form" action="" method="post"  enctype="multipart/form-data">
+
+<span class="formt">Title<span class="labelerror">{t2}</span></span>
+<input name="title" type="text" class="formfield {t1} width100" id="title"  autocomplete="off" value="{title}"/>
+
+<span class="formt">Topic Category<span class="labelerror">{c2}</span></span>
+<select name="cat" id="cat" size="1" class="formfield {c1}" style="outline:none;">
+{topiclist}
+</select>
+
+
+{groupslist}
+
+
+<span class="formt">Body<span class="labelerror">{r2}</span></span>
+<textarea rows="12" class="formfield {r1}" name="body" id="body"  style="resize:vertical;width:100%">{body}</textarea>
+
+<span class="formt">Add an Image <span class="grey">&middot; up to 1Mb</span><span class="labelerror">{i2}</span></span>
+<input type="file" id="file" name="file" size="20" class="formfield {i1}">
+<div class="space10"></div>
+
+<input type="submit" class="button" name="button" id="button" value="Create Topic"/> 
+</form>
+
+
+
+</div>
+<div class="narrowright">
+{lastrightad}
+</div>
+<div class="clear"></div>

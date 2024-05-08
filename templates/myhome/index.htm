@@ -1,0 +1,40 @@
+
+<h1>Dashboard</h1>
+
+
+<div class="wideleft">
+<h2>Share Your Thoughts</h2>
+<form id="Form" name="Form" action="{rooturl}/phpfiles/actions.php" method="post">
+<textarea rows="2" class="formfield" name="feedpost" id="feedpost" placeholder="Type a message here to share ..."  style="width:100%;resize:vertical;"></textarea>
+<input type="submit" class="button" name="button" id="button" value="Share" />
+</form>
+
+<div class="space30"></div>
+<div class="lh728">
+<h2>Your Content</h2>
+{mycontent}
+</div>
+<div class="rh728">
+{menu}
+</div>
+<div class="clear"></div>
+
+
+
+
+
+<div class="space20"></div>
+{menu-mobile}
+<h2>{feedtitle}</h2>
+
+{newsfeed}
+{pagination}
+
+</div>
+
+<div class="narrowright">
+{moderator}
+
+{lastrightad}
+</div>
+<div class="clear"></div>

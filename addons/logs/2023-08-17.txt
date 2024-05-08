@@ -1,0 +1,24 @@
+Time : 22:57:22
+IP : 73.86.146.62
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 12:18:37
+IP : 69.142.113.120
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's nj') FROM members WHERE id != 100 AND country = 'United States of America' AND' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Villa's nj') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND (dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%') AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Villa's nj')
+
+Time : 12:18:03
+IP : 69.142.113.120
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's nj') FROM members WHERE id != 100 AND country = 'United States of America' AND' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Villa's nj') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND (dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%') AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Villa's nj')
+
+Time : 02:24:11
+IP : 49.224.116.73
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Categories' at line 1
+Raw SQL : SELECT id , MATCH (title,slogan,description) AGAINST ('Auckland men wanting cock') FROM groups WHERE id > 0  AND MATCH (title,slogan,description) AGAINST ('Auckland men wanting cock') AND catid = All Categories
+
+Time : 02:23:56
+IP : 49.224.116.73
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Categories' at line 1
+Raw SQL : SELECT id , MATCH (title,slogan,description) AGAINST ('Auckland men wanting cock') FROM groups WHERE id > 0  AND MATCH (title,slogan,description) AGAINST ('Auckland men wanting cock') AND catid = All Categories

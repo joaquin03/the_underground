@@ -1,0 +1,64 @@
+Time : 22:50:14
+IP : 166.194.200.16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 22:49:54
+IP : 166.194.200.16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 22:14:15
+IP : 68.180.86.22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') FROM groups WHERE id != 4902/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') LIMIT 15
+
+Time : 21:46:02
+IP : 172.56.68.61
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Newnan, GA Sex Parties') FROM groups WHERE id != 6309/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Newnan, GA Sex Parties') LIMIT 15
+
+Time : 18:56:02
+IP : 49.193.92.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Fe' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Eaton's hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Female' AND sex_pref LIKE '%Straight%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Eaton's hill')
+
+Time : 18:55:45
+IP : 49.193.92.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Fe' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Eaton's Hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Female' AND sex_pref LIKE '%Straight%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Eaton's Hill')
+
+Time : 18:55:38
+IP : 49.193.92.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Fe' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Eaton's Hill') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'Female' AND sex_pref LIKE '%Straight%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Eaton's Hill')
+
+Time : 07:31:26
+IP : 177.81.77.166
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'robots.txt' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3162/robots.txt AND type = 'member'
+
+Time : 00:45:42
+IP : 209.131.254.133
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D729842' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D729842 AND type = 'member'
+
+Time : 00:45:41
+IP : 66.244.74.69
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D729831' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D729831 AND type = 'member'
+
+Time : 00:33:44
+IP : 72.36.125.228
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D730385' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D730385 AND type = 'member'
+
+Time : 00:33:42
+IP : 204.116.80.36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D730113' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D730113 AND type = 'member'
+
+Time : 00:01:41
+IP : 204.186.55.231
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D730167' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D730167 AND type = 'member'

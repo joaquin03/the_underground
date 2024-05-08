@@ -1,0 +1,19 @@
+Time : 22:36:13
+IP : 38.64.138.217
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 18:23:13
+IP : 40.77.167.46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 44 AND area =    ORDER BY stamp DESC
+
+Time : 07:21:29
+IP : 174.240.191.145
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 605287 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 605287 AND `from` =  AND delto = 'n') OR (`from` = 605287 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:19:35
+IP : 104.28.39.37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 735393 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 735393 AND `from` =  AND delto = 'n') OR (`from` = 735393 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC

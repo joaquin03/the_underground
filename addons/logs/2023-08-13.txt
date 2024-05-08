@@ -1,0 +1,49 @@
+Time : 19:20:34
+IP : 172.178.30.168
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''[0]  AND MATCH (title,slogan,description) AGAINST ('Horny againn') LIMIT 15' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Horny againn') FROM groups WHERE id != 4554'[0]  AND MATCH (title,slogan,description) AGAINST ('Horny againn') LIMIT 15
+
+Time : 18:41:26
+IP : 107.77.212.172
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 15:15:06
+IP : 35.148.201.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 733038 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 733038 AND `from` =  AND delto = 'n') OR (`from` = 733038 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:15:00
+IP : 35.148.201.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 733038 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 733038 AND `from` =  AND delto = 'n') OR (`from` = 733038 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:41:11
+IP : 13.92.178.14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Horny againn') LIMIT 15' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Horny againn') FROM groups WHERE id != 4554'  AND MATCH (title,slogan,description) AGAINST ('Horny againn') LIMIT 15
+
+Time : 00:16:18
+IP : 172.188.26.224
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') FROM groups WHERE id != 5071'  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') LIMIT 15
+
+Time : 00:16:18
+IP : 172.188.26.224
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') FROM groups WHERE id != 5071'  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') LIMIT 15
+
+Time : 00:16:16
+IP : 172.188.26.224
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') FROM groups WHERE id != 5071'  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') LIMIT 15
+
+Time : 00:16:16
+IP : 172.188.26.224
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') FROM groups WHERE id != 5071'  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') LIMIT 15
+
+Time : 00:16:15
+IP : 172.188.26.224
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') FROM groups WHERE id != 5071'  AND MATCH (title,slogan,description) AGAINST ('Dirty 530 male\&#39;s female\&#39;s gay\&#39;s bi\&#39;s straight\&#39;s. All are welcome!!') LIMIT 15

@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<title>{pagetitle}{pagetitlejoiner}The Underground Sex Club</title>
+<meta name="description" content="{pagedescription}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="{rooturl}/styles/jquery.menu.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|Open+Sans" rel="stylesheet" type="text/css">
+<link href="{staticurl}/styles/mobile-min.css?v={cssnum}" rel="stylesheet" type="text/css">
+{extrameta}
+<style>
+{style}
+</style>
+<script type="text/javascript">
+$(function() {
+$('nav#menu').mmenu();
+});
+</script>
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQNL30CJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHQNL30CJQ', {
+  'cookie_domain': 'www.theundergroundsexclub.com'
+});
+</script>
+<body>
+<div class="topsection">
+<a href="{rooturl}"><span class="is mlogo"></span></a>
+<div class="fleft"><a href="#menu"><span class="is menuic"></span></a></div>
+<div onClick="toggle_visibility('searchholder');" class="fright"><span class="is menusic"></span></div>
+<div class="clear"></div>
+</div>
+<div id="searchholder">
+<form action="{rooturl}" method="get">
+<button type="submit" class="fright button m0" name="" value="" >Search</button>
+<div class="singlelineform">
+<input type="text" autocomplete="off" name="q" style="width: 100%;" class="formfield nooutline" placeholder="TYPE YOUR SEARCH HERE" value="{searchval}" />
+</div>
+</form>
+</div>
+<div id="bcdiv" class="onelinetext">
+{bc}
+</div>
+<div class="p10">
+{errormessage}
+<!--content-->
+<div class="space30"></div>
+<div class="space30"></div>
+</div>
+<nav id="menu">
+{membersection}
+<a href="{rooturl}/?mod=members"><span class="menuitem">MEMBERS</span></a>
+<a href="{rooturl}/?mod=galleries"><span class="menuitem">GALLERIES</span></a>
+<a href="{rooturl}/?mod=groups"><span class="menuitem">SEX GROUPS</span></a>
+<a href="{rooturl}/?mod=stories"><span class="menuitem">STORIES</span></a>
+<a href="{rooturl}/?mod=forum"><span class="menuitem">SEX FORUM</span></a>
+<a href="{rooturl}/?mod=personals"><span class="menuitem">PERSONALS</span></a>
+<a href="{rooturl}/?mod=local"><span class="menuitem">LOCAL PAGES</span></a>
+{loggedinsection}
+<div class="footer">
+&copy; The Undergroundsex Club {cy}
+<div class="space5"></div>
+<a href="{rooturl}/?mod=legal&file=privacy">Privacy</a> &middot;
+<a href="{rooturl}/?mod=legal&file=terms">Terms</a> &middot;
+<a href="{rooturl}/?mod=contact">Contact Us</a>
+</div>
+<div class="space30"></div>
+</nav>
+{bottomad}
+</body>
+</html>
+<script type="text/javascript">
+function hide(obj) {var el = document.getElementById(obj);el.style.display = "none";}
+function show(obj) {var el = document.getElementById(obj);el.style.display = "block";}
+$(document).ready(function() {
+$("img").unveil();
+});
+
+(function($) {
+
+$.fn.unveil = function(threshold, callback) {
+
+var $w = $(window),
+th = threshold || 0,
+retina = window.devicePixelRatio > 1,
+attrib = retina? "data-src-retina" : "data-src",
+images = this,
+loaded;
+
+this.one("unveil", function() {
+var source = this.getAttribute(attrib);
+source = source || this.getAttribute("data-src");
+if (source) {
+this.setAttribute("src", source);
+if (typeof callback === "function") callback.call(this);
+}
+});
+
+function unveil() {
+var inview = images.filter(function() {
+var $e = $(this);
+if ($e.is(":hidden")) return;
+
+var wt = $w.scrollTop(),
+wb = wt + $w.height(),
+et = $e.offset().top,
+eb = et + $e.height();
+
+return eb >= wt - th && et <= wb + th;
+});
+
+loaded = inview.trigger("unveil");
+images = images.not(loaded);
+}
+
+$w.on("scroll.unveil resize.unveil lookup.unveil", unveil);
+
+unveil();
+
+return this;
+
+};
+
+})(window.jQuery || window.Zepto);
+
+function toggle_visibility(id) {
+var e = document.getElementById(id);
+if(e.style.display == 'block')
+e.style.display = 'none';
+else
+e.style.display = 'block';
+}
+
+
+{scripts}
+</script>

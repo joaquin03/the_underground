@@ -1,0 +1,19 @@
+Time : 23:42:08
+IP : 64.233.172.224
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MY9UagrT' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 23:42:08
+IP : 64.233.172.226
+SQLSTATE[HY000]: General error: 3 Error writing file '/tmp/MYkNyAqV' (Errcode: 28 "No space left on device")
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 12:45:14
+IP : 52.167.144.22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 55 AND area =    ORDER BY stamp DESC
+
+Time : 04:07:43
+IP : 40.77.167.19
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 48 AND area =    ORDER BY stamp DESC

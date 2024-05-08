@@ -1,0 +1,19 @@
+Time : 17:40:53
+IP : 75.114.36.195
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 10:57:24
+IP : 64.176.188.66
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''A=0 ORDER BY stories DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM storycategories WHERE id != 17'A=0 ORDER BY stories DESC LIMIT 5
+
+Time : 01:19:15
+IP : 173.31.132.32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 01:15:27
+IP : 40.77.167.67
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM pages WHERE phrase = :p

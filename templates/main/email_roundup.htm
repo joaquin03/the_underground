@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{heading}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0;padding:0;font-size:12px;font-family:arial,sans-serif;min-width:550px;text-align: left;">
+
+
+
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td align="center" style="padding: 0px 0px 10px 0px;font-family:arial,sans-serif;color:#999999;font-size:10px;">{username}, this is your {lcperiod} report. You have been viewed! <br /><a href="http://www.theundergroundsexclub.com/?mod=myhome&amp;file=report&amp;uc={usercode}" style="text-decoration: none;"><span style="color:#006CD8;">
+ View this Report Online</span></a></td>
+	</tr>
+	<tr> <!-- First Row Full Width - Logos -->
+		<td bgcolor="#000000" style="padding: 10px 10px 10px 10px;">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td><a href="http://www.theundergroundsexclub.com" style="border:none;"><img src="http://www.theundergroundsexclub.com/logos/email.png" width="147" height="84" alt="The Underground Sex Club Logo" style="display:block;"/></a></td>
+					<td align="right"><img src="https://static.theundergroundsexclub.com/images/layout/email-{lcperiod}.jpg" width="120" height="84" alt="Your {period} Stats" style="display:block;"/></td>
+				</tr>
+		</table>
+		</td>
+	</tr>
+	<tr> <!-- Second Row Full Width - Red Userline -->
+		<td align="center" bgcolor="#FF4D4D" style="padding: 10px 10px 10px 10px;font-family:arial,sans-serif;color:#FFFFFF;font-size:16px;font-weight:bold;">
+		Hello {username}, here is your {days} day activity report.
+		</td>
+	</tr>
+	<tr> <!-- Third Row Full Width - Content -->
+		<td bgcolor="#FFFFFF" style="padding:10px 0px 10px 0px">
+
+			<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table 2 Col -->
+				<tr>
+					<td bgcolor="#FFFFFF" valign="top" style="padding:10px 20px 10px 10px">
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Profile -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Your Profile &middot; {days} Day Activity &middot; <a href="http://www.theundergroundsexclub.com/?u={uid}" style="text-decoration: none;"><span style="color:#006CD8;">View</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding-top:10px;">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td colspan="4" valign="top" style="padding-bottom:5px;">
+														<a href="http://www.theundergroundsexclub.com/?u={uid}" style="text-decoration: none;"><span style="font-family:arial,sans-serif;color:#006CD8;font-size:12px;">{username}</span></a>
+											</td>
+										</tr>
+										<tr>
+											<td width="25%" rowspan="2">
+														<a href="http://www.theundergroundsexclub.com/?u={uid}"><img src="{uimage}" width="50" height="50" alt="Profile Image" style="display:block;"/></a>
+											</td>
+											<td width="25%" height="15" align="left" valign="bottom" style="font-family:arial,sans-serif;color:#000000;font-size:12px;">
+														Views
+											</td>
+											<td width="25%" align="left" valign="bottom" style="font-family:arial,sans-serif;color:#000000;font-size:12px;">
+														Follows
+											</td>
+											<td width="25%" align="left" valign="bottom" style="font-family:arial,sans-serif;color:#000000;font-size:12px;">
+														Comments
+											</td>
+										</tr>
+										<tr>
+											<td width="25%" align="left" valign="top" style="font-family:arial,sans-serif;color:#000000;font-size:26px;font-weight:bold;">
+														{uv}
+											</td>
+											<td width="25%" align="left" valign="top" style="font-family:arial,sans-serif;color:#000000;font-size:26px;font-weight:bold;">
+														{uf}
+											</td>
+											<td width="25%" align="left" valign="top" style="font-family:arial,sans-serif;color:#000000;font-size:26px;font-weight:bold;">
+														{uc}
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Groups -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Groups &middot; {days} Day Activity{gmore}
+								</td>
+							</tr>
+							<tr>
+								<td>
+								{ugroups}</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Personals -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Personal Ads &middot; {days} Day Activity{pmore}
+								</td>
+							</tr>
+							<tr>
+								<td>
+								{uads}</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Galleries -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Galleries &middot; {days} Day Activity{gallmore}
+								</td>
+							</tr>
+							<tr>
+								<td>
+								{ugalleries}</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Forums -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Your Forum Topics &middot; {days} Day Activity{fmore}
+								</td>
+							</tr>
+							<tr>
+								<td>
+								{uforums}</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Content Table - Forums -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Stories &middot; {days} Day Activity{smore}
+								</td>
+							</tr>
+							<tr>
+								<td>
+								{ustories}</td>
+							</tr>
+						</table>
+
+					</td>
+					<td bgcolor="#EEEEEE" width="34%" valign="top" style="padding: 10px">
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Right Content Table - Account -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Account Overview
+								</td>
+							</tr>
+							<tr>
+								<td>
+
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="30" height="20"  style="padding-top:10px;">
+											<img src="https://static.theundergroundsexclub.com/images/layout/email-mail.png"  style="display:block;" width="20" height="20" alt="Your {period} Stats"/>
+											</td>
+											<td  style="padding-top:10px;">
+											{umessages}
+											</td>
+										</tr>
+									</table>
+
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="30" height="20"  style="padding-top:5px;">
+											<img src="https://static.theundergroundsexclub.com/images/layout/email-notify.png"  style="display:block;" width="20" height="20" alt="Your {period} Stats"/>
+											</td>
+											<td  style="padding-top:5px;">
+											{unotify}
+											</td>
+										</tr>
+									</table>
+
+									{ulock}
+
+								</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Right Content Table - Site Stats -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Site Stats
+								</td>
+							</tr>
+							<tr>
+								<td style="font-family:arial,sans-serif;color:#000000;font-size:12px;padding-top:10px;">New Members &middot; {days} Days</td>
+							</tr>
+							<tr>
+								<td style="font-family:arial,sans-serif;color:#000000;font-size:26px;font-weight:bold;">{nm}</td>
+							</tr>
+							<tr>
+								<td style="font-family:arial,sans-serif;color:#000000;font-size:12px;padding-top:3px;">Total Members</td>
+							</tr>
+							<tr>
+								<td style="font-family:arial,sans-serif;color:#000000;font-size:26px;font-weight:bold;">{tm}</td>
+							</tr>
+							<tr>
+								<td height="15">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Right Content Table - Quick Links -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Quick Links
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:10px;">
+														<a href="http://www.theundergroundsexclub.com/?mod=login" style="text-decoration: none;"><span style="font-family:arial,sans-serif;color:#006CD8;font-size:12px;">Login to Your Account &nbsp;&rsaquo;</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:5px;">
+														<a href="http://www.theundergroundsexclub.com/?mod=login&amp;file=forgot" style="text-decoration: none;"><span style="font-family:arial,sans-serif;color:#006CD8;font-size:12px;">Retrieve Login Details &nbsp;&rsaquo;</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:15px;">
+														<a href="http://www.theundergroundsexclub.com/?mod=members" style="text-decoration: none;"><span style="font-family:arial,sans-serif;color:#006CD8;font-size:12px;">Browse Members &nbsp;&rsaquo;</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:5px;">
+														<a href="http://www.theundergroundsexclub.com/?mod=groups" style="text-decoration: none;"><span style="font-family:arial,sans-serif;color:#006CD8;font-size:12px;">Join Sex Groups &nbsp;&rsaquo;</span></a>
+								</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Right Content Table - Latest Girls -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Latest Girls
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:10px;">
+									<table width="100%" border="0" cellspacing="0" cellpadding="1">
+     	 							<tr>{lwomen}</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="20">&nbsp;</td>
+							</tr>
+						</table>
+
+						<table width="100%" border="0" cellspacing="0" cellpadding="0"> <!-- Right Content Table - Latest GUYS -->
+							<tr>
+								<td style="padding-bottom:5px;font-family:arial,sans-serif;color:#000000;font-size:16px;font-weight:bold;border-bottom:2px solid #FF4D4D;">
+								Latest Guys
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4" valign="top" style="padding-top:10px;">
+									<table width="100%" border="0" cellspacing="0" cellpadding="1">
+     	 							<tr>{lguys}</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+
+
+					</td>
+				</tr>
+			</table> <!-- End Content Table 2 Col -->
+
+		</td>
+	</tr>
+	<tr>
+		<td align="center" bgcolor="#000000" style="padding: 10px 10px 10px 10px;font-family:arial,sans-serif;font-size:12px;color:#999999;">You are receiving this because you are a registered member and subscribed to {lcperiod} updates.<br />
+			Don't want to get a {lcperiod} update of your account via email? <a href="http://www.theundergroundsexclub.com/?mod=unsubscribe&amp;email={email}&amp;uc={usercode}&amp;type=roundup" style="text-decoration: none;"><span style="color:#CCCCCC;">Unsubscribe&nbsp;/&nbsp;Change</span></a></td>
+	</tr>
+	<tr>
+		<td>
+			<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
+
+</body>
+</html>

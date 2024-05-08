@@ -1,0 +1,59 @@
+Time : 21:46:06
+IP : 24.46.243.253
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 734216 AND `from` =  AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:46:00
+IP : 24.46.243.253
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 734216 AND `from` =  AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:45:57
+IP : 24.46.243.253
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 734216 AND `from` =  AND delto = 'n') OR (`from` = 734216 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:42:19
+IP : 69.246.178.29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 14:12:02
+IP : 68.35.215.13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 10:44:44
+IP : 47.215.1.8
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's ferry ') FROM members WHERE id != 100 AND country = 'United States of America'' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Greer's ferry ') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Greer's ferry ')
+
+Time : 09:35:10
+IP : 84.67.199.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+
+Time : 09:35:10
+IP : 84.67.199.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+
+Time : 09:35:10
+IP : 84.67.199.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+
+Time : 09:35:10
+IP : 84.67.199.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in South wales') FROM groups WHERE id != 6733/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Sex in South wales') LIMIT 15
+
+Time : 09:21:39
+IP : 24.224.164.156
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Cumthirsty Cocksuckers') FROM groups WHERE id != 4992/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Cumthirsty Cocksuckers') LIMIT 15
+
+Time : 09:21:39
+IP : 24.224.164.156
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Cumthirsty Cocksuckers') FROM groups WHERE id != 4992/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Cumthirsty Cocksuckers') LIMIT 15

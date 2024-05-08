@@ -1,0 +1,179 @@
+Time : 23:18:14
+IP : 177.55.205.130
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'robots.txt' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3162/robots.txt AND type = 'member'
+
+Time : 19:58:38
+IP : 47.37.36.142
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id FROM members WHERE `username` = :un AND `email` != :em limit 1
+
+Time : 19:58:30
+IP : 47.37.36.142
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id FROM members WHERE `username` = :un AND `email` != :em limit 1
+
+Time : 19:28:39
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '13' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 13-- TZmt ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:39
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '15' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 15-- eMrN ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:38
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '20' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 20-- jpnm ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:34
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6035' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 6035-- PQWR ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:29
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) ORDER BY 1-- DYUo ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37)) ORDER BY 1-- DYUo ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:28
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY 1-- GgTS ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37) ORDER BY 1-- GgTS ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:05
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '";SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37";SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:05
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '");SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37");SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:04
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '';SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37%';SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:04
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '';SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37';SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:03
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''));SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37'));SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:03
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '');SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37');SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:02
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37;SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:02
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '));SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37));SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:28:01
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ');SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37);SELECT PG_SLEEP(32)-- ORDER BY topics DESC LIMIT 5
+
+Time : 19:26:47
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fRGQpG<'">epjMrH ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37'fRGQpG<'">epjMrH ORDER BY topics DESC LIMIT 5
+
+Time : 19:26:46
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')((').("), ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37)((').("), ORDER BY topics DESC LIMIT 5
+
+Time : 17:52:06
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '13' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 13-- oIEc ORDER BY topics DESC LIMIT 5
+
+Time : 17:52:06
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '15' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 15-- jJjp ORDER BY topics DESC LIMIT 5
+
+Time : 17:52:05
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '20' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 20-- yhlR ORDER BY topics DESC LIMIT 5
+
+Time : 17:52:01
+IP : 62.122.184.74
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '2409' in 'order clause'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37 ORDER BY 2409-- MKCu ORDER BY topics DESC LIMIT 5
+
+Time : 17:51:57
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')) ORDER BY 1-- FFlm ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37)) ORDER BY 1-- FFlm ORDER BY topics DESC LIMIT 5
+
+Time : 17:51:56
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY 1-- ZlmR ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37) ORDER BY 1-- ZlmR ORDER BY topics DESC LIMIT 5
+
+Time : 17:51:55
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''xTjjAV<'">eMoSqm ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37'xTjjAV<'">eMoSqm ORDER BY topics DESC LIMIT 5
+
+Time : 17:51:54
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''".,((,,, ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37.'".,((,,, ORDER BY topics DESC LIMIT 5
+
+Time : 16:13:41
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''JkrZeJ<'">EoAuGD ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37'JkrZeJ<'">EoAuGD ORDER BY topics DESC LIMIT 5
+
+Time : 16:13:41
+IP : 62.122.184.74
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '("',.,.,( ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 37,("',.,.,( ORDER BY topics DESC LIMIT 5
+
+Time : 06:56:44
+IP : 173.239.204.152
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 732519 AND `from` =  AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:55:58
+IP : 64.64.116.26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 732519 AND `from` =  AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:55:52
+IP : 64.64.116.26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 732519 AND `from` =  AND delto = 'n') OR (`from` = 732519 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:03:09
+IP : 84.71.129.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIK' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('King's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIKE 'Male' AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Gay%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('King's Lynn')
+
+Time : 02:00:24
+IP : 84.71.129.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIK' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('King's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIKE 'Male' AND (dob_date LIKE '%1924%' OR dob_date LIKE '%1925%' OR dob_date LIKE '%1926%' OR dob_date LIKE '%1927%' OR dob_date LIKE '%1928%' OR dob_date LIKE '%1929%' OR dob_date LIKE '%1930%' OR dob_date LIKE '%1931%' OR dob_date LIKE '%1932%' OR dob_date LIKE '%1933%' OR dob_date LIKE '%1934%' OR dob_date LIKE '%1935%' OR dob_date LIKE '%1936%' OR dob_date LIKE '%1937%' OR dob_date LIKE '%1938%' OR dob_date LIKE '%1939%' OR dob_date LIKE '%1940%' OR dob_date LIKE '%1941%' OR dob_date LIKE '%1942%' OR dob_date LIKE '%1943%' OR dob_date LIKE '%1944%' OR dob_date LIKE '%1945%' OR dob_date LIKE '%1946%' OR dob_date LIKE '%1947%' OR dob_date LIKE '%1948%' OR dob_date LIKE '%1949%' OR dob_date LIKE '%1950%' OR dob_date LIKE '%1951%' OR dob_date LIKE '%1952%' OR dob_date LIKE '%1953%' OR dob_date LIKE '%1954%' OR dob_date LIKE '%1955%' OR dob_date LIKE '%1956%' OR dob_date LIKE '%1957%' OR dob_date LIKE '%1958%' OR dob_date LIKE '%1959%' OR dob_date LIKE '%1960%' OR dob_date LIKE '%1961%' OR dob_date LIKE '%1962%' OR dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%' OR dob_date LIKE '%2004%' OR dob_date LIKE '%2005%') AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Gay%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('King's Lynn')
+
+Time : 02:00:04
+IP : 84.71.129.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIK' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('King's Lynn') FROM members WHERE id != 100 AND country = 'United Kingdom' AND sex LIKE 'Male' AND (dob_date LIKE '%1924%' OR dob_date LIKE '%1925%' OR dob_date LIKE '%1926%' OR dob_date LIKE '%1927%' OR dob_date LIKE '%1928%' OR dob_date LIKE '%1929%' OR dob_date LIKE '%1930%' OR dob_date LIKE '%1931%' OR dob_date LIKE '%1932%' OR dob_date LIKE '%1933%' OR dob_date LIKE '%1934%' OR dob_date LIKE '%1935%' OR dob_date LIKE '%1936%' OR dob_date LIKE '%1937%' OR dob_date LIKE '%1938%' OR dob_date LIKE '%1939%' OR dob_date LIKE '%1940%' OR dob_date LIKE '%1941%' OR dob_date LIKE '%1942%' OR dob_date LIKE '%1943%' OR dob_date LIKE '%1944%' OR dob_date LIKE '%1945%' OR dob_date LIKE '%1946%' OR dob_date LIKE '%1947%' OR dob_date LIKE '%1948%' OR dob_date LIKE '%1949%' OR dob_date LIKE '%1950%' OR dob_date LIKE '%1951%' OR dob_date LIKE '%1952%' OR dob_date LIKE '%1953%' OR dob_date LIKE '%1954%' OR dob_date LIKE '%1955%' OR dob_date LIKE '%1956%' OR dob_date LIKE '%1957%' OR dob_date LIKE '%1958%' OR dob_date LIKE '%1959%' OR dob_date LIKE '%1960%' OR dob_date LIKE '%1961%' OR dob_date LIKE '%1962%' OR dob_date LIKE '%1963%' OR dob_date LIKE '%1964%' OR dob_date LIKE '%1965%' OR dob_date LIKE '%1966%' OR dob_date LIKE '%1967%' OR dob_date LIKE '%1968%' OR dob_date LIKE '%1969%' OR dob_date LIKE '%1970%' OR dob_date LIKE '%1971%' OR dob_date LIKE '%1972%' OR dob_date LIKE '%1973%' OR dob_date LIKE '%1974%' OR dob_date LIKE '%1975%' OR dob_date LIKE '%1976%' OR dob_date LIKE '%1977%' OR dob_date LIKE '%1978%' OR dob_date LIKE '%1979%' OR dob_date LIKE '%1980%' OR dob_date LIKE '%1981%' OR dob_date LIKE '%1982%' OR dob_date LIKE '%1983%' OR dob_date LIKE '%1984%' OR dob_date LIKE '%1985%' OR dob_date LIKE '%1986%' OR dob_date LIKE '%1987%' OR dob_date LIKE '%1988%' OR dob_date LIKE '%1989%' OR dob_date LIKE '%1990%' OR dob_date LIKE '%1991%' OR dob_date LIKE '%1992%' OR dob_date LIKE '%1993%' OR dob_date LIKE '%1994%' OR dob_date LIKE '%1995%' OR dob_date LIKE '%1996%' OR dob_date LIKE '%1997%' OR dob_date LIKE '%1998%' OR dob_date LIKE '%1999%' OR dob_date LIKE '%2000%' OR dob_date LIKE '%2001%' OR dob_date LIKE '%2002%' OR dob_date LIKE '%2003%' OR dob_date LIKE '%2004%' OR dob_date LIKE '%2005%') AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Gay%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('King's Lynn')

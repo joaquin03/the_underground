@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|Open+Sans' rel='stylesheet' type='text/css'>
+<link href="{staticurl}/styles/full.css?v={cssnum}" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>{pagetitle}{pagetitlejoiner}The Underground Sex Club</title>
+<meta name="description" content="{pagedescription}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="image_src" href="{ogimage}">
+<meta property="og:image" content="{ogimage}"/>
+{extrameta}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHQNL30CJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHQNL30CJQ', {
+  'cookie_domain': 'www.theundergroundsexclub.com'
+});
+</script>
+</head>
+<body>
+<div id="main">
+<div class="widthholder">
+<div class="space20"></div>
+<span class="is lady fleft"></span>
+<span class="fleft inline ml20">
+<a href="{rooturl}"><span class="fs36 white fstyle1">THE UNDERGROUND SEX CLUB</span></a>
+<br />
+<span class="fs26 fstyle1 grey">CONNECTING LIKEMINDED PEOPLE</span>
+</span>
+{topads}
+<div class="clear"></div>
+<div class="space20"></div>
+</div>
+
+<div class="sticky">
+<div id="menudiv">
+<a href="../"><span class="menuitem {ma-home}">{hometext}</span></a>
+<a href="../?mod=members"><span class="menuitem {ma-members}">MEMBERS</span></a>
+<a href="../?mod=galleries"><span class="menuitem {ma-galleries}">GALLERIES</span></a>
+<a href="../?mod=groups"><span class="menuitem {ma-groups}">GROUPS</span></a>
+<a href="../?mod=stories"><span class="menuitem {ma-stories}">STORIES</span></a>
+<a href="../?mod=forum"><span class="menuitem {ma-forum}">FORUM</span></a>
+<a href="../?mod=personals"><span class="menuitem {ma-personals}">PERSONALS</span></a>
+<a href="../?mod=local"><span class="menuitem {ma-local}">LOCAL PAGES</span></a>
+
+<span class="fright redbg">{loggedinsection}</span>
+
+<div class="clear"></div>
+</div>
+</div>
+
+<div class="paddedmenu"></div>
+<div id="bcdiv" class="onelinetext">
+{bc}{loadtime}
+</div>
+
+<div class="widthholder whitebg mh400">
+<div class="space20"></div>
+{errormessage}
+<!--content-->
+<div class="space20"></div>
+</div>
+<footer class="footerbox">
+<span class="fs26 fstyle1">THE UNDERGROUND SEX CLUB</span>
+<div class="space5"></div>
+&copy; {cy}
+<div class="space5"></div>
+<a rel="nofollow" href="../?mod=contact">Contact Us</a> | <a rel="nofollow" href="../?mod=legal&file=terms">Site Terms</a> | <a rel="nofollow" href="../?mod=legal&file=privacy">Privacy Policy</a>
+</footer>
+<div class="space30"></div>
+<div class="space30"></div>
+<div class="space30"></div>
+<div class="space30"></div>
+<div class="space30"></div>
+
+</div>
+
+{chatbar}
+</body>
+</html>
+<script type="text/javascript">
+function hide(obj) {var el = document.getElementById(obj);el.style.display = "none";}
+function show(obj) {var el = document.getElementById(obj);el.style.display = "block";}
+var paddedmenu = document.querySelector('.paddedmenu');
+var sticky = document.querySelector('.sticky');
+var origOffsetY = sticky.offsetTop;
+function onScroll(e) {
+  if (typeof(window.pageYOffset) == 'number') {
+    scrollY = window.pageYOffset;
+}
+else {
+    scrollY = document.documentElement.scrollTop;
+}
+
+scrollY >= origOffsetY ? sticky.classList.add('fixed') : sticky.classList.remove('fixed');
+scrollY >= origOffsetY ? paddedmenu.style.display = "block" : paddedmenu.style.display = "none";
+}
+
+document.addEventListener('scroll', onScroll);
+
+
+
+{scripts}
+
+$(function () {
+    var top = $("#frozen").offset().top-60;
+
+    $(window).on('scroll', function () {
+        if (top <= $(window).scrollTop()) {
+            // if so, add the fixed class
+            $('#frozen').addClass('fixed2');
+        } else {
+            // otherwise remove it
+            $('#frozen').removeClass('fixed2');
+        }
+    })
+});
+
+</script>

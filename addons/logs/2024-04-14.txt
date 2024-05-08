@@ -1,0 +1,245 @@
+Time : 23:58:58
+IP : 138.199.35.205
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 577836 AND `from` =  AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:58:38
+IP : 138.199.35.205
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 577836 AND `from` =  AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:58:25
+IP : 138.199.35.205
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 577836 AND `from` =  AND delto = 'n') OR (`from` = 577836 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 23:43:40
+IP : 54.218.176.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4558members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('essex girls') FROM groups WHERE id != 4558members  AND MATCH (title,slogan,description) AGAINST ('essex girls') LIMIT 15
+
+Time : 23:41:02
+IP : 34.214.241.194
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7425members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Any girls(other then black girls) looking to link with a Guy FrOm North Carolina !!') FROM groups WHERE id != 7425members  AND MATCH (title,slogan,description) AGAINST ('Any girls(other then black girls) looking to link with a Guy FrOm North Carolina !!') LIMIT 15
+
+Time : 23:23:12
+IP : 174.71.2.171
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 749740 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 749740 AND `from` =  AND delto = 'n') OR (`from` = 749740 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 22:54:28
+IP : 34.209.250.131
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6329galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('GREEDY GIRLS SYDNEY - GANGBANG - SYDNEY CBD') FROM groups WHERE id != 6329galleries  AND MATCH (title,slogan,description) AGAINST ('GREEDY GIRLS SYDNEY - GANGBANG - SYDNEY CBD') LIMIT 15
+
+Time : 22:52:55
+IP : 52.32.44.60
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4846members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('girls licking girls') FROM groups WHERE id != 4846members  AND MATCH (title,slogan,description) AGAINST ('girls licking girls') LIMIT 15
+
+Time : 22:26:44
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4752members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('sw london gang bang') FROM groups WHERE id != 4752members  AND MATCH (title,slogan,description) AGAINST ('sw london gang bang') LIMIT 15
+
+Time : 22:12:41
+IP : 174.205.48.120
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790596 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790596 AND `from` =  AND delto = 'n') OR (`from` = 790596 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 22:02:15
+IP : 34.208.124.141
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5910members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('westlands escorts & call girls') FROM groups WHERE id != 5910members  AND MATCH (title,slogan,description) AGAINST ('westlands escorts & call girls') LIMIT 15
+
+Time : 21:19:45
+IP : 174.205.48.120
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790596 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790596 AND `from` =  AND delto = 'n') OR (`from` = 790596 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 21:17:16
+IP : 174.21.154.47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 785944 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 785944 AND `from` =  AND delto = 'n') OR (`from` = 785944 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 20:27:41
+IP : 34.216.179.212
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5400members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('ANY OLD or FAT SLUTS ACT..NSW') FROM groups WHERE id != 5400members  AND MATCH (title,slogan,description) AGAINST ('ANY OLD or FAT SLUTS ACT..NSW') LIMIT 15
+
+Time : 19:41:45
+IP : 34.215.28.236
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6625members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Yeah that\&#39;s the spot') FROM groups WHERE id != 6625members  AND MATCH (title,slogan,description) AGAINST ('Yeah that\&#39;s the spot') LIMIT 15
+
+Time : 18:04:48
+IP : 69.195.28.162
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's Arkansas ') FROM members WHERE id != 100 AND country = 'United States of Ameri' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('Truman's Arkansas ') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('Truman's Arkansas ')
+
+Time : 16:50:51
+IP : 174.202.70.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791112 AND `from` =  AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:50:43
+IP : 174.202.70.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791112 AND `from` =  AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:46:01
+IP : 76.34.232.96
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 625922 AND `from` =  AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:45:56
+IP : 76.34.232.96
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 625922 AND `from` =  AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:45:53
+IP : 76.34.232.96
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 625922 AND `from` =  AND delto = 'n') OR (`from` = 625922 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:44:33
+IP : 35.92.49.34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5378members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Hunter valley players') FROM groups WHERE id != 5378members  AND MATCH (title,slogan,description) AGAINST ('Hunter valley players') LIMIT 15
+
+Time : 16:37:43
+IP : 34.208.240.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5041members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('lets have fun') FROM groups WHERE id != 5041members  AND MATCH (title,slogan,description) AGAINST ('lets have fun') LIMIT 15
+
+Time : 16:35:36
+IP : 34.214.241.194
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5378galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Hunter valley players') FROM groups WHERE id != 5378galleries  AND MATCH (title,slogan,description) AGAINST ('Hunter valley players') LIMIT 15
+
+Time : 16:28:20
+IP : 34.215.101.215
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5961members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Montgomery Gang Bang Fun') FROM groups WHERE id != 5961members  AND MATCH (title,slogan,description) AGAINST ('Montgomery Gang Bang Fun') LIMIT 15
+
+Time : 16:25:28
+IP : 34.215.140.46
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5680galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('I am single looking for fun in dirty fun stuff girls') FROM groups WHERE id != 5680galleries  AND MATCH (title,slogan,description) AGAINST ('I am single looking for fun in dirty fun stuff girls') LIMIT 15
+
+Time : 16:20:50
+IP : 35.85.64.135
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7432members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Ruskin Florida freak and Spun') FROM groups WHERE id != 7432members  AND MATCH (title,slogan,description) AGAINST ('Ruskin Florida freak and Spun') LIMIT 15
+
+Time : 16:19:27
+IP : 35.89.28.7
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5600members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Cute girls up for some fun ;) rochester mn') FROM groups WHERE id != 5600members  AND MATCH (title,slogan,description) AGAINST ('Cute girls up for some fun ;) rochester mn') LIMIT 15
+
+Time : 16:17:49
+IP : 54.218.176.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7111members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Tweed Sex Group') FROM groups WHERE id != 7111members  AND MATCH (title,slogan,description) AGAINST ('Tweed Sex Group') LIMIT 15
+
+Time : 16:14:53
+IP : 174.202.70.103
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791112 AND `from` =  AND delto = 'n') OR (`from` = 791112 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:07:13
+IP : 107.77.233.84
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:06:39
+IP : 107.77.233.84
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:06:34
+IP : 107.77.233.84
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:59:26
+IP : 34.215.209.144
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6413members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Ogden Utah') FROM groups WHERE id != 6413members  AND MATCH (title,slogan,description) AGAINST ('Ogden Utah') LIMIT 15
+
+Time : 15:49:05
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5680members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('I am single looking for fun in dirty fun stuff girls') FROM groups WHERE id != 5680members  AND MATCH (title,slogan,description) AGAINST ('I am single looking for fun in dirty fun stuff girls') LIMIT 15
+
+Time : 15:47:33
+IP : 35.89.28.7
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5296galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in Canberra (groups&#8218; 1on1&#8218; sharing&#8218; swapping)') FROM groups WHERE id != 5296galleries  AND MATCH (title,slogan,description) AGAINST ('Sex in Canberra (groups&#8218; 1on1&#8218; sharing&#8218; swapping)') LIMIT 15
+
+Time : 15:43:26
+IP : 34.208.240.254
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7045n' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Ogden fun') FROM groups WHERE id != 7045n  AND MATCH (title,slogan,description) AGAINST ('Ogden fun') LIMIT 15
+
+Time : 15:38:49
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7050members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Phoenix casual fun.. Females wanted') FROM groups WHERE id != 7050members  AND MATCH (title,slogan,description) AGAINST ('Phoenix casual fun.. Females wanted') LIMIT 15
+
+Time : 15:38:04
+IP : 35.89.28.7
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5296members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Sex in Canberra (groups&#8218; 1on1&#8218; sharing&#8218; swapping)') FROM groups WHERE id != 5296members  AND MATCH (title,slogan,description) AGAINST ('Sex in Canberra (groups&#8218; 1on1&#8218; sharing&#8218; swapping)') LIMIT 15
+
+Time : 15:25:31
+IP : 54.190.225.2
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6124members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Girls for sex between Byron and Brisbane') FROM groups WHERE id != 6124members  AND MATCH (title,slogan,description) AGAINST ('Girls for sex between Byron and Brisbane') LIMIT 15
+
+Time : 15:13:28
+IP : 34.217.179.235
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7050galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Phoenix casual fun.. Females wanted') FROM groups WHERE id != 7050galleries  AND MATCH (title,slogan,description) AGAINST ('Phoenix casual fun.. Females wanted') LIMIT 15
+
+Time : 15:11:41
+IP : 35.89.28.7
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4483members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Dirty fun in braintree&#8218; essex') FROM groups WHERE id != 4483members  AND MATCH (title,slogan,description) AGAINST ('Dirty fun in braintree&#8218; essex') LIMIT 15
+
+Time : 14:58:32
+IP : 35.88.230.52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7096members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Fun') FROM groups WHERE id != 7096members  AND MATCH (title,slogan,description) AGAINST ('Fun') LIMIT 15
+
+Time : 14:52:22
+IP : 34.214.241.194
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5961galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Montgomery Gang Bang Fun') FROM groups WHERE id != 5961galleries  AND MATCH (title,slogan,description) AGAINST ('Montgomery Gang Bang Fun') LIMIT 15
+
+Time : 14:48:28
+IP : 34.217.179.235
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6271members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('BIG BEAUTIFUL AND Mature ladies for BBWS') FROM groups WHERE id != 6271members  AND MATCH (title,slogan,description) AGAINST ('BIG BEAUTIFUL AND Mature ladies for BBWS') LIMIT 15
+
+Time : 13:47:19
+IP : 18.236.66.103
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6367galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') FROM groups WHERE id != 6367galleries  AND MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') LIMIT 15
+
+Time : 13:42:31
+IP : 192.219.250.100
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 539821 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 539821 AND `from` =  AND delto = 'n') OR (`from` = 539821 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:34:28
+IP : 41.115.47.93
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Anytime Fun in Pretoria South Africa') FROM groups WHERE id != 5131/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Anytime Fun in Pretoria South Africa') LIMIT 15
+
+Time : 13:34:28
+IP : 41.115.47.93
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Anytime Fun in Pretoria South Africa') FROM groups WHERE id != 5131/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Anytime Fun in Pretoria South Africa') LIMIT 15
+

@@ -1,0 +1,29 @@
+Time : 16:40:07
+IP : 187.157.161.195
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') FROM groups WHERE id != 6003/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') LIMIT 15
+
+Time : 16:40:07
+IP : 187.157.161.195
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') FROM groups WHERE id != 6003/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('Las Vegas Gangbang') LIMIT 15
+
+Time : 15:24:17
+IP : 114.73.220.193
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 14:17:57
+IP : 24.114.93.56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm from Winchester Ontario ') FROM members WHERE id != 100 AND country = 'Canada'' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('I'm from Winchester Ontario ') FROM members WHERE id != 100 AND country = 'Canada' AND sex LIKE 'Female' AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('I'm from Winchester Ontario ')
+
+Time : 08:51:10
+IP : 52.167.144.228
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 59 AND area =    ORDER BY stamp DESC
+
+Time : 04:42:38
+IP : 104.231.158.114
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's') FROM members WHERE id != 100 AND country = 'United States of America' AND se' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('St. Mathew's') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('St. Mathew's')

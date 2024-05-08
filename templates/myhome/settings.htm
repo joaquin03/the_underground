@@ -1,0 +1,98 @@
+<h1>Account Settings</h1>
+
+<div class="wideleft">
+
+<h2>Notifications</h2>
+
+<form id="form1" name="form1" method="post" action="">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="0%" valign="top" style="padding-right:10px;"><input name="notify_follow" type="checkbox" value="y" {notify_follow} /></td>
+    <td valign="top" width="100%">Followed<br /><span class="lightgrey">Notify me when I am followed.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_commentsme" type="checkbox" value="y" {notify_commentsme} /></td>
+    <td valign="top">Comments on My Profile<br /><span class="lightgrey">Notify me when a member comments on my profile.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_commentsgallery" type="checkbox" value="y" {notify_commentsgallery} /></td>
+    <td valign="top">Comments on a Gallery<br /><span class="lightgrey">Notify me when a member comments on a gallery of mine.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_commentsphoto" type="checkbox" value="y" {notify_commentsphoto} /></td>
+    <td valign="top">Comments on a Photo<br /><span class="lightgrey">Notify me when a member comments on a photo of mine.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_commentsstory" type="checkbox" value="y" {notify_commentsstory} /></td>
+    <td valign="top">Comments on my Sex Stories<br /><span class="lightgrey">Notify me when someone comments on my sex stories.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_commentsfeed" type="checkbox" value="y" {notify_commentsfeed} /></td>
+    <td valign="top">Comments on my Posts<br /><span class="lightgrey">Notify me when someone comments on my posts.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_votesmember" type="checkbox" value="y" {notify_votesmember} /></td>
+    <td valign="top">Likes My Profile<br /><span class="lightgrey">Notify me when a member likes my profile page.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_votesgallery" type="checkbox" value="y" {notify_votesgallery} /></td>
+    <td valign="top">Likes a Gallery<br /><span class="lightgrey">Notify me when a member likes a gallery of mine.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_votesphoto" type="checkbox" value="y" {notify_votesphoto} /></td>
+    <td valign="top">Likes a Photo<br /><span class="lightgrey">Notify me when a member likes a photo of mine.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_votesstory" type="checkbox" value="y" {notify_votesstory} /></td>
+    <td valign="top">Likes a Sex Story<br /><span class="lightgrey">Notify me when someone likes a sex story of mine.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="notify_votesfeed" type="checkbox" value="y" {notify_votesfeed} /></td>
+    <td valign="top">Likes a Post<br /><span class="lightgrey">Notify me when someone likes a post of mine.</span><div class="space10"></div></td>
+  </tr>
+   <tr>
+    <td valign="top"><input name="notify_joinmygroup" type="checkbox" value="y" {notify_joinmygroup} /></td>
+    <td valign="top">New Group Members<br /><span class="lightgrey">Notify me when there is a new group member in my group.</span><div class="space10"></div></td>
+  </tr>
+   <tr>
+    <td valign="top"><input name="notify_groupcomments" type="checkbox" value="y" {notify_groupcomments} /></td>
+    <td valign="top">New Group Comment<br /><span class="lightgrey">Notify me when there is a new comment in a group I am in.</span></td>
+  </tr>
+</table>
+
+<div class="space30"></div>
+<h2>Email Notifications</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="0%" valign="top" style="padding-right:10px;"><input name="email_pm" type="checkbox" value="y" {email_pm} /></td>
+    <td valign="top" width="100%">Private Message<br /><span class="lightgrey">When I receive a Private Message, notify me by email.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td width="0%" valign="top" style="padding-right:10px;"><input name="email_forum" type="checkbox" value="y" {email_forum} /></td>
+    <td valign="top" width="100%">Forum Subscriptions<br /><span class="lightgrey">When someone replies to a topic I am subscribed to.</span><div class="space10"></div></td>
+  </tr>
+  <tr>
+    <td valign="top"><input name="email_newsletter" type="checkbox" id="email_newsletter" value="y" {email_newsletter} /></td>
+    <td valign="top">The USC Newsletter<br /><span class="lightgrey">Keep me up to date with The USC Newsletter.</span><div class="space10"></div></td>
+  </tr>
+</table>
+
+<div class="space10"></div>
+<input name="button" type="submit" class="button" id="button" value="Update Account Settings" />
+</form>
+
+</div>
+
+<div class="narrowright">
+<h2>Close Your Account</h2>
+Please note: This can not be undone. Your account, and contents will be deleted.
+<div class="space20"></div>
+<form action="{rooturl}/phpfiles/actions.php?deletemember=y" method="POST" onsubmit="return confirm('Are you sure you want to delete your account? This action can NOT be undone.')">
+<input name="button2" type="submit" class="button light" id="button2" value="Close Account Now" />
+</form>
+<div class="space30"></div>
+{lastrightad}
+
+</div>
+<div class="clear"></div>

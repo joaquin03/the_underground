@@ -1,0 +1,19 @@
+Time : 20:08:14
+IP : 172.59.105.231
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 15:47:42
+IP : 95.91.225.70
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('BBC vs BBW') FROM groups WHERE id != 6307/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('BBC vs BBW') LIMIT 15
+
+Time : 01:07:30
+IP : 52.167.144.168
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state =    ORDER BY stamp DESC
+
+Time : 00:13:32
+IP : 66.249.75.96
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND area =    ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 3 AND state =  AND area =    ORDER BY stamp DESC

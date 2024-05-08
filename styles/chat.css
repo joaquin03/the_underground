@@ -1,0 +1,123 @@
+
+
+/*////////////////////// CHAT BAR /////////////*/
+#chatholder{
+    position: fixed;
+    z-index: 100; 
+    bottom: 0;
+	width:100%;
+	margin:0;
+	color:#666;
+}
+#chatbar{
+	padding:12px 0px 0px 15px;
+	background-color:#000;
+	border-bottom:none;
+	display:block;
+	height:26px;
+	border-top:#999 solid 1px;
+}
+#chatbar a{
+	color:#FFF;
+}
+
+.messageflash{
+	float:right;
+	border-left:1px solid #999;
+	padding:12px 15px 0px 8px;
+	background-image: url(data:image/gif;base64,R0lGODlhAQABAJEAAEJCQjExMf4BAgAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQEMgD/ACwAAAAAAQABAAACAkwBACH5BAUeAAIALAAAAAABAAEAAAICRAEAOw==);
+	background-repeat: repeat;
+	width:170px;
+	height:26px;
+	margin:-12px 0px;
+	display:inline-block;
+}
+.message{
+	float:right;
+	border-left:1px solid #999;
+	padding:12px 15px 0px 8px;
+	margin:-12px 0px;
+	display:inline-block;
+	height:26px;
+}
+.messagepop{
+	float:right;
+	width:200px;
+	height:235px;
+	margin:-210px -1px 0px 0px;
+	background-color:#FFF;
+	border:1px solid #999;
+	border-bottom:none;
+	display:none;
+	cursor:default;
+	color:#000;
+}
+.popname{
+	width:120px;
+	padding:12px 0px 0px 80px;
+	background-color:#000;
+	border-bottom:1px solid #000;
+	display:block; 
+	color:#FFF;
+	cursor:pointer;
+	height:27px;
+}
+.popimage{
+	display:block;
+	width:60px;
+	border:1px solid #999;
+	height:60px;
+	background-color:#FFF;
+	margin: -79px 0px 17px 10px;
+	cursor:pointer;
+}
+.popdetails{
+	width:120px;
+	padding:12px 0px 0px 80px;
+	background-color:#F6F7F9;
+	border-bottom:1px solid #999;
+	display:block;
+	color:#000;
+	cursor:pointer;
+	height:45px;
+}
+.popchat{
+	width:180px;
+	padding:10px;
+	height:78px;
+	border-bottom:1px solid #999;
+	color:#000;
+	display:block;
+	cursor:text;
+}
+.popreplybox{
+	display:inline-block;
+	width:117px;
+	margin:5px 5px 0px 5px;
+	border:1px solid #E5E5E5;
+	color:#999;
+	height:22px;
+	padding:5px 0px 0px 5px;
+	cursor:text;
+}
+.popreplybutton{
+	display:inline-block;
+	width:53px;
+	margin:5px 5px 0px 0px;
+	border:1px solid #FF4A4A;
+	color:#FFF;
+	height:22px;
+	padding:5px 0px 0px 0px;
+	background-color:#FF4A4A;
+	text-align:center;
+	cursor:pointer;
+}
+.popclose{
+	width:200px;
+	height:20px;
+	color:#CCC;
+	display:block;
+	font-size:9px;
+	text-align:right;
+	margin-top:-20px;
+}

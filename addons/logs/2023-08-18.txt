@@ -1,0 +1,14 @@
+Time : 22:50:25
+IP : 149.78.7.146
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'robots.txt' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3162/robots.txt AND type = 'member'
+
+Time : 19:12:14
+IP : 40.77.167.59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 49 AND area =    ORDER BY stamp DESC
+
+Time : 06:37:44
+IP : 40.77.167.60
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'

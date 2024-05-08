@@ -1,0 +1,33 @@
+<div class="wideleft">
+
+
+<h2>Visitors</h2>
+{visitors}
+
+
+</div>
+
+<div class="narrowright">
+<h2>Filter</h2>
+<form id="form1" name="form1" method="get" action="" onsubmit="hideit()">
+<input type="hidden" name="mod" value="myhome">
+<input type="hidden" name="file" value="moderate">
+<span class="formt">Section</span>
+<select name="what" class="formfield width100">
+  <option value="messages" {messages-select}>Messages</option>
+  <option value="comments" {comments-select}>Comments</option>
+  <option value="feed" {feed-select}>Feed Posts</option>
+</select>
+
+<span class="formt">Keyword</span>
+<input name="keyword" type="text" class="formfield width100" id="keyword" value="{keyword}"  autocorrect="off"  autocomplete="off"   />
+
+<span class="formt">Omit Count</span>
+<input name="omit" type="text" class="formfield width100" id="omit" value="{omit}"  autocorrect="off"  autocomplete="off"   />
+
+<div class="space10"></div>
+<input name="button" type="submit" class="button" id="button" value="Filter" />
+</form>
+
+</div>
+<div class="clear"></div>

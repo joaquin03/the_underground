@@ -1,0 +1,67 @@
+<h1>Registrations & Statistics</h1>
+
+
+
+<form id="Form" name="Form" action="" method="post">
+	
+<select name="period" class="formfield" id="period">
+{periods}
+</select>
+<input name="button" type="submit" class="button" id="button" value="Run Report" />
+
+</form>
+
+
+<div class="divline"></div>
+
+
+
+<div class="wideleft">
+
+<h2>Registrations by Day</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tr style="background-color:#EAEAEA;font-weight:bold;">
+			<td>Date</td>
+			<td width="9%" align="center">Hits</td>
+			<td width="9%" align="center">Reg T</td>
+			<td width="9%" align="center">Reg %</td>
+			<td width="9%" align="center">HT T</td>
+			<td width="9%" align="center">HT F</td>
+			<td width="9%" align="center">HT F%</td>
+			<td width="9%" align="center">DP T</td>
+			<td width="9%" align="center">DP F</td>
+			<td width="9%" align="center">DP F%</td>
+		</tr>
+		{days}
+</table>
+
+
+<div class="space20"></div>
+<h2>Page Types</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tr style="background-color:#EAEAEA;font-weight:bold;">
+			<td width="40%">Name</td>
+			<td width="20%" align="center">Hits</td>
+			<td width="20%" align="center">Completions</td>
+			<td width="20%" align="center">%</td>
+		</tr>
+		{pages}
+</table>
+
+</div>
+
+<div class="narrowright">
+
+<h2>Campaigns</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+		<tr style="background-color:#EAEAEA;font-weight:bold;">
+			<td>Campaign</td>
+			<td align="right">Hits</td>
+		</tr>
+		{campaigns}
+</table>
+
+
+</div>
+
+<div class="clear"></div>

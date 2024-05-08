@@ -1,0 +1,99 @@
+Time : 23:49:48
+IP : 216.218.72.133
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D730470' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D730470 AND type = 'member'
+
+Time : 23:33:06
+IP : 71.181.59.135
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 23:32:16
+IP : 71.181.59.135
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 23:32:09
+IP : 71.181.59.135
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 23:29:41
+IP : 64.222.212.199
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'member'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D73= AND type = 'member'
+
+Time : 23:15:40
+IP : 23.228.132.5
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D730326' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D730326 AND type = 'member'
+
+Time : 23:15:40
+IP : 163.153.215.68
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '3D729848' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 3D729848 AND type = 'member'
+
+Time : 21:12:17
+IP : 76.212.78.127
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 40 AND area = 294 AND category = 7/favicon.ico  ORDER BY stamp DESC
+
+Time : 21:12:17
+IP : 76.212.78.127
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 40 AND area = 294 AND category = 7/favicon.ico  ORDER BY stamp DESC
+
+Time : 21:12:17
+IP : 76.212.78.127
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 2 AND state = 40 AND area = 294 AND category = 7/favicon.ico  ORDER BY stamp DESC
+
+Time : 14:34:59
+IP : 47.128.17.203
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 11:21:42
+IP : 166.199.149.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 11:20:56
+IP : 166.199.149.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 11:20:45
+IP : 166.199.149.15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 01:11:56
+IP : 45.132.224.87
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:11:56
+IP : 45.132.224.102
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:11:56
+IP : 45.132.224.55
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:11:56
+IP : 45.132.224.77
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:11:56
+IP : 45.132.224.69
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 01:11:56
+IP : 45.132.224.59
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5

@@ -1,0 +1,1394 @@
+Time : 22:31:53
+IP : 66.69.133.200
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 22:18:48
+IP : 1.128.19.70
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791335 AND `from` =  AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 22:18:44
+IP : 1.128.19.70
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791335 AND `from` =  AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 22:18:38
+IP : 1.128.19.70
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791335 AND `from` =  AND delto = 'n') OR (`from` = 791335 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:08:00
+IP : 99.33.25.242
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 777990 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 777990 AND `from` =  AND delto = 'n') OR (`from` = 777990 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 19:03:21
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 18:31:42
+IP : 12.75.46.30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:47:47
+IP : 104.0.14.158
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 725245 AND `from` =  AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:47:29
+IP : 104.0.14.158
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 725245 AND `from` =  AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 17:47:20
+IP : 104.0.14.158
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 725245 AND `from` =  AND delto = 'n') OR (`from` = 725245 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:46:07
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:46:02
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:45:52
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:44:53
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:44:39
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:44:22
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:43:23
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:37:50
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:37:39
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:37:01
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:36:55
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 16:36:50
+IP : 72.183.140.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790619 AND `from` =  AND delto = 'n') OR (`from` = 790619 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:50:31
+IP : 76.164.183.245
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 780051 AND `from` =  AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:50:30
+IP : 76.164.183.245
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 780051 AND `from` =  AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:50:26
+IP : 76.164.183.245
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 780051 AND `from` =  AND delto = 'n') OR (`from` = 780051 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:37:52
+IP : 24.30.181.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 765512 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 765512 AND `from` =  AND delto = 'n') OR (`from` = 765512 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:36:52
+IP : 24.30.181.251
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 765512 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 765512 AND `from` =  AND delto = 'n') OR (`from` = 765512 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:26:11
+IP : 68.57.101.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770247 AND `from` =  AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:26:06
+IP : 68.57.101.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770247 AND `from` =  AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:25:31
+IP : 68.57.101.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770247 AND `from` =  AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:15:00
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:14:23
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:14:18
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:10:37
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 15:10:33
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:53:10
+IP : 108.147.103.18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:51:18
+IP : 108.147.103.18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:51:13
+IP : 108.147.103.18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:36:09
+IP : 169.150.196.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:36:04
+IP : 169.150.196.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:35:46
+IP : 169.150.196.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:35:42
+IP : 169.150.196.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 14:07:15
+IP : 86.30.75.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 781317 AND `from` =  AND delto = 'n') OR (`from` = 781317 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:54:02
+IP : 108.147.103.18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:53:57
+IP : 108.147.103.18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:33:06
+IP : 104.28.110.90
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791427 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791427 AND `from` =  AND delto = 'n') OR (`from` = 791427 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:23:17
+IP : 174.193.115.225
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 787818 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 787818 AND `from` =  AND delto = 'n') OR (`from` = 787818 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:15:31
+IP : 12.75.46.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:15:25
+IP : 12.75.46.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:14:12
+IP : 12.75.46.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:14:06
+IP : 12.75.46.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:13:47
+IP : 12.75.46.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791312 AND `from` =  AND delto = 'n') OR (`from` = 791312 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 13:03:41
+IP : 172.59.136.5
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790924 AND `from` =  AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:51:43
+IP : 107.77.236.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789938 AND `from` =  AND delto = 'n') OR (`from` = 789938 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:29:51
+IP : 47.183.251.46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:28:28
+IP : 68.57.101.33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770247 AND `from` =  AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:23:55
+IP : 208.38.225.69
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:08:56
+IP : 172.58.151.143
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 770247 AND `from` =  AND delto = 'n') OR (`from` = 770247 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 12:00:32
+IP : 47.183.251.46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 531277 AND `from` =  AND delto = 'n') OR (`from` = 531277 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:57:36
+IP : 3.145.201.71
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 11:28:39
+IP : 172.59.136.5
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790924 AND `from` =  AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 11:28:32
+IP : 172.59.136.5
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 790924 AND `from` =  AND delto = 'n') OR (`from` = 790924 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 10:37:54
+IP : 174.213.215.165
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789925 AND `from` =  AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 10:37:37
+IP : 174.213.215.165
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789925 AND `from` =  AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 10:37:30
+IP : 174.213.215.165
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789925 AND `from` =  AND delto = 'n') OR (`from` = 789925 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:43:35
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:37:11
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:37:07
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:36:58
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:30:31
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:30:26
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:30:10
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:30:02
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:29:58
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 09:29:53
+IP : 172.59.32.136
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791378 AND `from` =  AND delto = 'n') OR (`from` = 791378 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:41:40
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:41:26
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:41:22
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:33
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:28
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:22
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:16
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:07
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:40:03
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:39:58
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:39:52
+IP : 68.80.186.134
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 789621 AND `from` =  AND delto = 'n') OR (`from` = 789621 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 07:18:10
+IP : 34.222.148.145
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '635571following' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 635571following AND type = 'member'
+
+Time : 07:16:45
+IP : 52.27.47.146
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '635571personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 635571personals AND type = 'member'
+
+Time : 06:58:23
+IP : 99.33.25.242
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 777990 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 777990 AND `from` =  AND delto = 'n') OR (`from` = 777990 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:55:26
+IP : 52.37.52.14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '635571followers' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 635571followers AND type = 'member'
+
+Time : 06:49:50
+IP : 54.202.150.79
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '266677personals' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 266677personals AND type = 'member'
+
+Time : 06:21:13
+IP : 34.214.235.189
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4723members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('north east texas sex') FROM groups WHERE id != 4723members  AND MATCH (title,slogan,description) AGAINST ('north east texas sex') LIMIT 15
+
+Time : 06:17:44
+IP : 52.40.254.130
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5749members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('10 inch cock for females / 3sum& gangbangs') FROM groups WHERE id != 5749members  AND MATCH (title,slogan,description) AGAINST ('10 inch cock for females / 3sum& gangbangs') LIMIT 15
+
+Time : 06:15:56
+IP : 34.215.28.236
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4874members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('3sum girls') FROM groups WHERE id != 4874members  AND MATCH (title,slogan,description) AGAINST ('3sum girls') LIMIT 15
+
+Time : 06:06:30
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:03:41
+IP : 35.85.64.135
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6780members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('East Midlands sex club') FROM groups WHERE id != 6780members  AND MATCH (title,slogan,description) AGAINST ('East Midlands sex club') LIMIT 15
+
+Time : 05:59:11
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:59:03
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:58:56
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:58:51
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:58:47
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:58:38
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:58:14
+IP : 192.119.203.164
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 710946 AND `from` =  AND delto = 'n') OR (`from` = 710946 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:57:56
+IP : 34.215.101.215
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4723galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('north east texas sex') FROM groups WHERE id != 4723galleries  AND MATCH (title,slogan,description) AGAINST ('north east texas sex') LIMIT 15
+
+Time : 05:51:57
+IP : 34.216.179.212
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7562members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('South East T Club') FROM groups WHERE id != 7562members  AND MATCH (title,slogan,description) AGAINST ('South East T Club') LIMIT 15
+
+Time : 05:42:42
+IP : 35.167.252.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6616n' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('East Tx 3sum') FROM groups WHERE id != 6616n  AND MATCH (title,slogan,description) AGAINST ('East Tx 3sum') LIMIT 15
+
+Time : 05:39:39
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:39:00
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'United States of America' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:38:28
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:36:27
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:34:47
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:33:18
+IP : 52.40.254.130
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6940members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Let\&#39;s fuck') FROM groups WHERE id != 6940members  AND MATCH (title,slogan,description) AGAINST ('Let\&#39;s fuck') LIMIT 15
+
+Time : 05:32:37
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:32:27
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'United States of America' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:31:39
+IP : 174.239.123.174
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791050 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791050 AND `from` =  AND delto = 'n') OR (`from` = 791050 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:31:10
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:28:57
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'United States of America' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:28:10
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:26:09
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 05:25:42
+IP : 18.237.105.125
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5229members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Rushden uk sex') FROM groups WHERE id != 5229members  AND MATCH (title,slogan,description) AGAINST ('Rushden uk sex') LIMIT 15
+
+Time : 05:25:39
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 05:24:36
+IP : 102.23.99.25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791214 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791214 AND `from` =  AND delto = 'n') OR (`from` = 791214 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:24:28
+IP : 102.23.99.25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791214 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791214 AND `from` =  AND delto = 'n') OR (`from` = 791214 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 05:23:58
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+230-230-1=0+0+0+1 or 'bHWnpUbo'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+230-230-1=0+0+0+1 or 'bHWnpUbo'='') FROM members WHERE id != 100 AND country = 'Australia' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+230-230-1=0+0+0+1 or 'bHWnpUbo'='')
+
+Time : 05:23:49
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+230-230-1=0+0+0+1 or 'bHWnpUbo'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+230-230-1=0+0+0+1 or 'bHWnpUbo'='') FROM members WHERE id != 100 AND country = 'Australia' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+230-230-1=0+0+0+1 or 'bHWnpUbo'='')
+
+Time : 05:23:42
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+509-509-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+509-509-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+509-509-1=0+0+0+1 -- ')
+
+Time : 05:23:34
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+509-509-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+509-509-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+509-509-1=0+0+0+1 -- ')
+
+Time : 05:23:24
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+956-956-1=0+0+0+1 or 'w1wdIclB'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+956-956-1=0+0+0+1 or 'w1wdIclB'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+956-956-1=0+0+0+1 or 'w1wdIclB'='')
+
+Time : 05:23:15
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+956-956-1=0+0+0+1 or 'w1wdIclB'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+956-956-1=0+0+0+1 or 'w1wdIclB'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+956-956-1=0+0+0+1 or 'w1wdIclB'='')
+
+Time : 05:23:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+873-873-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+873-873-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+873-873-1=0+0+0+1 -- ')
+
+Time : 05:22:54
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+873-873-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+873-873-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+873-873-1=0+0+0+1 -- ')
+
+Time : 05:22:39
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:19:02
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:17:52
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 05:17:36
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 05:17:07
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:16:07
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+819-819-1=0+0+0+1 or '7tBq6Rcj'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+819-819-1=0+0+0+1 or '7tBq6Rcj'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+819-819-1=0+0+0+1 or '7tBq6Rcj'='')
+
+Time : 05:16:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+819-819-1=0+0+0+1 or '7tBq6Rcj'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+819-819-1=0+0+0+1 or '7tBq6Rcj'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+819-819-1=0+0+0+1 or '7tBq6Rcj'='')
+
+Time : 05:15:54
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+941-941-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+941-941-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+941-941-1=0+0+0+1 -- ')
+
+Time : 05:15:46
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+941-941-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+941-941-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+941-941-1=0+0+0+1 -- ')
+
+Time : 05:15:27
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+186-186-1=0+0+0+1 or '6m5sdf4e'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+186-186-1=0+0+0+1 or '6m5sdf4e'='') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+186-186-1=0+0+0+1 or '6m5sdf4e'='')
+
+Time : 05:15:18
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+186-186-1=0+0+0+1 or '6m5sdf4e'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+186-186-1=0+0+0+1 or '6m5sdf4e'='') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+186-186-1=0+0+0+1 or '6m5sdf4e'='')
+
+Time : 05:15:11
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+816-816-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'United ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+816-816-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+816-816-1=0+0+0+1 -- ')
+
+Time : 05:15:04
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+816-816-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'United ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+816-816-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'United States of America' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+816-816-1=0+0+0+1 -- ')
+
+Time : 05:14:51
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:14:04
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Bi-Sexual%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:13:25
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:08:33
+IP : 54.202.150.79
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7562galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('South East T Club') FROM groups WHERE id != 7562galleries  AND MATCH (title,slogan,description) AGAINST ('South East T Club') LIMIT 15
+
+Time : 05:07:19
+IP : 54.190.225.2
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5181members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('3sum sex') FROM groups WHERE id != 5181members  AND MATCH (title,slogan,description) AGAINST ('3sum sex') LIMIT 15
+
+Time : 05:06:48
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 05:06:41
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND sex_relstatus LIKE '%In a Relationship%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 05:03:51
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+205-205-1=0+0+0+1 or 'OwUK8nNI'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+205-205-1=0+0+0+1 or 'OwUK8nNI'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+205-205-1=0+0+0+1 or 'OwUK8nNI'='')
+
+Time : 05:03:43
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+205-205-1=0+0+0+1 or 'OwUK8nNI'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+205-205-1=0+0+0+1 or 'OwUK8nNI'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+205-205-1=0+0+0+1 or 'OwUK8nNI'='')
+
+Time : 05:03:38
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+436-436-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+436-436-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+436-436-1=0+0+0+1 -- ')
+
+Time : 05:03:34
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+436-436-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+436-436-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+436-436-1=0+0+0+1 -- ')
+
+Time : 05:03:17
+IP : 54.190.225.2
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4378members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Michigan Mad Hatters') FROM groups WHERE id != 4378members  AND MATCH (title,slogan,description) AGAINST ('Michigan Mad Hatters') LIMIT 15
+
+Time : 04:58:54
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 04:56:37
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '8239\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Utah hookups') FROM groups WHERE id != 8239À§À¢%2527%2522\'\"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15
+
+Time : 04:56:34
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Utah hookups') FROM groups WHERE id != 8239'"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15
+
+Time : 04:55:24
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+383-383-1=0+0+0+1 or 'yBeZh7u1'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+383-383-1=0+0+0+1 or 'yBeZh7u1'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+383-383-1=0+0+0+1 or 'yBeZh7u1'='')
+
+Time : 04:55:19
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+383-383-1=0+0+0+1 or 'yBeZh7u1'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+383-383-1=0+0+0+1 or 'yBeZh7u1'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+383-383-1=0+0+0+1 or 'yBeZh7u1'='')
+
+Time : 04:55:14
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+440-440-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+440-440-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+440-440-1=0+0+0+1 -- ')
+
+Time : 04:55:04
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+440-440-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+440-440-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+440-440-1=0+0+0+1 -- ')
+
+Time : 04:53:49
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:53:40
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:52:13
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Gay%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:51:57
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Female' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:51:16
+IP : 34.216.179.212
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '8177members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('3sum / gangbang') FROM groups WHERE id != 8177members  AND MATCH (title,slogan,description) AGAINST ('3sum / gangbang') LIMIT 15
+
+Time : 04:49:53
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND sex_relstatus LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:49:38
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '791335\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT owner FROM friends WHERE who = 791335À§À¢%2527%2522\'\" ORDER BY id DESC
+
+Time : 04:49:34
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY id DESC' at line 1
+Raw SQL : SELECT owner FROM friends WHERE who = 791335'" ORDER BY id DESC
+
+Time : 04:48:47
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%maleÀ§À¢%2527%2522\\\'\\\"%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:46:48
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:46:36
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:45:20
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Female' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:42:17
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%maleÀ§À¢%2527%2522\\\'\\\"%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:41:30
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'Male' AND sex_pref LIKE '%AnyÀ§À¢%2527%2522\\\'\\\"%' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:41:10
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND sex_relstatus LIKE '%Single%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:40:35
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'Australia' AND sex LIKE 'AnyÀ§À¢%2527%2522\\\'\\\"' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:38:43
+IP : 34.210.130.100
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '8176members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('3sum / gangbang') FROM groups WHERE id != 8176members  AND MATCH (title,slogan,description) AGAINST ('3sum / gangbang') LIMIT 15
+
+Time : 04:38:33
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1193 Unknown system variable 'XnDgQ'
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = @@XnDgQ ORDER BY members DESC
+
+Time : 04:38:26
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '29\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = 29À§À¢%2527%2522\'\" ORDER BY members DESC
+
+Time : 04:38:21
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = 29'" ORDER BY members DESC
+
+Time : 04:38:06
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND sex LIKE 'FemaleÀ§À¢%2527%2522\\\'\\\"' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:36:59
+IP : 18.236.66.103
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4988members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('East Midlands&#8218; UK') FROM groups WHERE id != 4988members  AND MATCH (title,slogan,description) AGAINST ('East Midlands&#8218; UK') LIMIT 15
+
+Time : 04:36:34
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation 'like'
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'maleÀ§À¢%2527%2522\\\'\\\"' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:34:38
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" OR 3+39-39-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1" OR 3+39-39-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 04:34:36
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" OR 2+39-39-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1" OR 2+39-39-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 04:34:32
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 3+965-965-1=0+0+0+1 or 'MicsWzWN'=' ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 3+965-965-1=0+0+0+1 or 'MicsWzWN'=' ORDER BY members DESC
+
+Time : 04:34:30
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 2+965-965-1=0+0+0+1 or 'MicsWzWN'=' ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 2+965-965-1=0+0+0+1 or 'MicsWzWN'=' ORDER BY members DESC
+
+Time : 04:34:27
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 3+99-99-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 3+99-99-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 04:34:24
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 2+99-99-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 2+99-99-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 04:29:26
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '791335\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT who FROM friends WHERE owner = 791335À§À¢%2527%2522\'\" ORDER BY id DESC
+
+Time : 04:29:18
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY id DESC' at line 1
+Raw SQL : SELECT who FROM friends WHERE owner = 791335'" ORDER BY id DESC
+
+Time : 04:29:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST (''"') FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST (''"')
+
+Time : 04:27:52
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 04:25:23
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST (''"') FROM members WHERE id != 100 AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST (''"')
+
+Time : 04:24:13
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+24-24-1=0+0+0+1 or 'FmlCLSAS'='') FROM members WHERE id != 100 AND country ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+24-24-1=0+0+0+1 or 'FmlCLSAS'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+24-24-1=0+0+0+1 or 'FmlCLSAS'='')
+
+Time : 04:24:03
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+24-24-1=0+0+0+1 or 'FmlCLSAS'='') FROM members WHERE id != 100 AND country ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+24-24-1=0+0+0+1 or 'FmlCLSAS'='') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+24-24-1=0+0+0+1 or 'FmlCLSAS'='')
+
+Time : 04:24:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+170-170-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+170-170-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+170-170-1=0+0+0+1 -- ')
+
+Time : 04:23:58
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+170-170-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+170-170-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+170-170-1=0+0+0+1 -- ')
+
+Time : 04:23:07
+IP : 35.87.48.125
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6104members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Amateur Films  *Models needed') FROM groups WHERE id != 6104members  AND MATCH (title,slogan,description) AGAINST ('Amateur Films  *Models needed') LIMIT 15
+
+Time : 04:23:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+123-123-1=0+0+0+1 or 'tZbeADRy'='') FROM members WHERE id != 100 AND sex LI' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+123-123-1=0+0+0+1 or 'tZbeADRy'='') FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+123-123-1=0+0+0+1 or 'tZbeADRy'='')
+
+Time : 04:22:54
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+123-123-1=0+0+0+1 or 'tZbeADRy'='') FROM members WHERE id != 100 AND sex LI' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+123-123-1=0+0+0+1 or 'tZbeADRy'='') FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+123-123-1=0+0+0+1 or 'tZbeADRy'='')
+
+Time : 04:22:48
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+100-100-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Male' AN' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+100-100-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+100-100-1=0+0+0+1 -- ')
+
+Time : 04:22:42
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+100-100-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Male' AN' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+100-100-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Male' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+100-100-1=0+0+0+1 -- ')
+
+Time : 04:21:59
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'Australia' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 04:19:45
+IP : 54.213.147.58
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4902members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') FROM groups WHERE id != 4902members  AND MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') LIMIT 15
+
+Time : 04:19:36
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+854-854-1=0+0+0+1 or 'dYTPwFU6'='') FROM members WHERE id != 100 AND sex LI' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+854-854-1=0+0+0+1 or 'dYTPwFU6'='') FROM members WHERE id != 100 AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+854-854-1=0+0+0+1 or 'dYTPwFU6'='')
+
+Time : 04:19:27
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+854-854-1=0+0+0+1 or 'dYTPwFU6'='') FROM members WHERE id != 100 AND sex LI' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+854-854-1=0+0+0+1 or 'dYTPwFU6'='') FROM members WHERE id != 100 AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+854-854-1=0+0+0+1 or 'dYTPwFU6'='')
+
+Time : 04:19:25
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+702-702-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Female' ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+702-702-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+702-702-1=0+0+0+1 -- ')
+
+Time : 04:19:25
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco'"') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco'"')
+
+Time : 04:19:14
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+702-702-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Female' ' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+702-702-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND sex LIKE 'Female' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+702-702-1=0+0+0+1 -- ')
+
+Time : 04:17:44
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+996-996-1=0+0+0+1 or 'alIAy9o1'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+996-996-1=0+0+0+1 or 'alIAy9o1'='') FROM members WHERE id != 100 AND country = 'Australia' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+996-996-1=0+0+0+1 or 'alIAy9o1'='')
+
+Time : 04:17:16
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+996-996-1=0+0+0+1 or 'alIAy9o1'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+996-996-1=0+0+0+1 or 'alIAy9o1'='') FROM members WHERE id != 100 AND country = 'Australia' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+996-996-1=0+0+0+1 or 'alIAy9o1'='')
+
+Time : 04:17:09
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+626-626-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+626-626-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+626-626-1=0+0+0+1 -- ')
+
+Time : 04:17:02
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+626-626-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Austral' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+626-626-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'Australia' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+626-626-1=0+0+0+1 -- ')
+
+Time : 04:17:00
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '8082n' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('BBW woman wanted for adult film') FROM groups WHERE id != 8082n  AND MATCH (title,slogan,description) AGAINST ('BBW woman wanted for adult film') LIMIT 15
+
+Time : 04:15:10
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+153-153-1=0+0+0+1 or 'HwXmbLWf'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+153-153-1=0+0+0+1 or 'HwXmbLWf'='') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+153-153-1=0+0+0+1 or 'HwXmbLWf'='')
+
+Time : 04:15:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+153-153-1=0+0+0+1 or 'HwXmbLWf'='') FROM members WHERE id != 100 AND countr' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+153-153-1=0+0+0+1 or 'HwXmbLWf'='') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+153-153-1=0+0+0+1 or 'HwXmbLWf'='')
+
+Time : 04:14:55
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 3+131-131-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'USA' AN' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 3+131-131-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 3+131-131-1=0+0+0+1 -- ')
+
+Time : 04:14:50
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OR 2+131-131-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'USA' AN' at line 1
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('-1' OR 2+131-131-1=0+0+0+1 -- ') FROM members WHERE id != 100 AND country = 'USA' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('-1' OR 2+131-131-1=0+0+0+1 -- ')
+
+Time : 04:13:26
+IP : 35.88.230.52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6367galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') FROM groups WHERE id != 6367galleries  AND MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') LIMIT 15
+
+Time : 04:11:37
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '19\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT * FROM forumcategories WHERE id != 19À§À¢%2527%2522\'\" ORDER BY topics DESC LIMIT 5
+
+Time : 04:11:28
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY topics DESC LIMIT 5' at line 1
+Raw SQL : SELECT * FROM forumcategories WHERE id != 19'" ORDER BY topics DESC LIMIT 5
+
+Time : 04:08:45
+IP : 184.92.192.117
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784095 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784095 AND `from` =  AND delto = 'n') OR (`from` = 784095 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 04:08:35
+IP : 184.92.192.117
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 784095 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 784095 AND `from` =  AND delto = 'n') OR (`from` = 784095 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 04:07:47
+IP : 35.92.144.223
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5945galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Busty BBW gangbang') FROM groups WHERE id != 5945galleries  AND MATCH (title,slogan,description) AGAINST ('Busty BBW gangbang') LIMIT 15
+
+Time : 04:06:39
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND country = 'À§À¢%2527%2522\\\'\\\"' AND sex LIKE 'Male' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:06:10
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND sex_pref LIKE '%Straight%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:04:56
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id  FROM members WHERE id != 100 AND country = 'À§À¢%2527%2522\\\'\\\"' AND sex LIKE 'Female' AND  validated = 'y' ORDER BY currentlogin DESC
+
+Time : 04:03:22
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'AustraliaÀ§À¢%2527%2522\\\'\\\"' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 04:02:11
+IP : 34.222.157.161
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6307galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('BBC vs BBW') FROM groups WHERE id != 6307galleries  AND MATCH (title,slogan,description) AGAINST ('BBC vs BBW') LIMIT 15
+
+Time : 04:00:45
+IP : 34.209.250.131
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4902galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') FROM groups WHERE id != 4902galleries  AND MATCH (title,slogan,description) AGAINST ('Adult Film/Porn Industry') LIMIT 15
+
+Time : 04:00:17
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT id , MATCH (town, about,username) AGAINST ('San Francisco') FROM members WHERE id != 100 AND country = 'USAÀ§À¢%2527%2522\\\'\\\"' AND sex LIKE 'male' AND sex_relstatus LIKE '%male%' AND sex_pref LIKE '%male%' AND image != '' AND  validated = 'y'  AND MATCH (town, about,username) AGAINST ('San Francisco')
+
+Time : 03:59:20
+IP : 34.216.179.212
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6307members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('BBC vs BBW') FROM groups WHERE id != 6307members  AND MATCH (title,slogan,description) AGAINST ('BBC vs BBW') LIMIT 15
+
+Time : 03:55:39
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '791335\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id FROM groupfollows WHERE owner = 791335À§À¢%2527%2522\'\" ORDER BY id DESC
+
+Time : 03:55:35
+IP : 54.190.225.2
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5302members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Gang bang in Las Vegas') FROM groups WHERE id != 5302members  AND MATCH (title,slogan,description) AGAINST ('Gang bang in Las Vegas') LIMIT 15
+
+Time : 03:55:34
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY id DESC' at line 1
+Raw SQL : SELECT id FROM groupfollows WHERE owner = 791335'" ORDER BY id DESC
+
+Time : 03:53:12
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM towns WHERE url = :u
+
+Time : 03:51:50
+IP : 54.212.40.142
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5391members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Older BBW fuck session') FROM groups WHERE id != 5391members  AND MATCH (title,slogan,description) AGAINST ('Older BBW fuck session') LIMIT 15
+
+Time : 03:50:22
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+Raw SQL : SELECT * FROM towns WHERE url = :u
+
+Time : 03:49:59
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '5684\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Central Flo-rida') FROM groups WHERE id != 5684À§À¢%2527%2522\'\"  AND MATCH (title,slogan,description) AGAINST ('Central Flo-rida') LIMIT 15
+
+Time : 03:49:55
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"  AND MATCH (title,slogan,description) AGAINST ('Central Flo-rida') LIMIT 15' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Central Flo-rida') FROM groups WHERE id != 5684'"  AND MATCH (title,slogan,description) AGAINST ('Central Flo-rida') LIMIT 15
+
+Time : 03:44:52
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1193 Unknown system variable 'QGJuT'
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = @@QGJuT ORDER BY members DESC
+
+Time : 03:44:48
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '29\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = 29À§À¢%2527%2522\'\" ORDER BY members DESC
+
+Time : 03:44:39
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = 29'" ORDER BY members DESC
+
+Time : 03:43:56
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '8239\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Utah hookups') FROM groups WHERE id != 8239À§À¢%2527%2522\'\"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15
+
+Time : 03:43:50
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15' at line 1
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Utah hookups') FROM groups WHERE id != 8239'"  AND MATCH (title,slogan,description) AGAINST ('Utah hookups') LIMIT 15
+
+Time : 03:43:08
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '791387\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id FROM votes WHERE itemid = 791387À§À¢%2527%2522\'\" AND type = 'member'
+
+Time : 03:43:02
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" AND type = 'member'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid = 791387'" AND type = 'member'
+
+Time : 03:42:56
+IP : 116.202.96.249
+SQLSTATE[HY000]: General error: 1300 Invalid utf8mb4 character string: '791334\xC0\xA7\xC0\xA2'
+Raw SQL : SELECT id FROM classifieds WHERE owner = 791334À§À¢%2527%2522\'\" AND title != '' AND delstamp = 0 ORDER BY id DESC
+
+Time : 03:42:53
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''" AND title != '' AND delstamp = 0 ORDER BY id DESC' at line 1
+Raw SQL : SELECT id FROM classifieds WHERE owner = 791334'" AND title != '' AND delstamp = 0 ORDER BY id DESC
+
+Time : 03:40:26
+IP : 54.186.112.188
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6367members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') FROM groups WHERE id != 6367members  AND MATCH (title,slogan,description) AGAINST ('Gainesville and North Florida bbw and freaky sluts') LIMIT 15
+
+Time : 03:39:10
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" OR 3+481-481-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1" OR 3+481-481-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 03:39:04
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" OR 2+481-481-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1" OR 2+481-481-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 03:39:01
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 3+636-636-1=0+0+0+1 or 'Ib0xoWwb'=' ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 3+636-636-1=0+0+0+1 or 'Ib0xoWwb'=' ORDER BY members DESC
+
+Time : 03:38:54
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 2+636-636-1=0+0+0+1 or 'Ib0xoWwb'=' ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 2+636-636-1=0+0+0+1 or 'Ib0xoWwb'=' ORDER BY members DESC
+
+Time : 03:38:52
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 3+558-558-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 3+558-558-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 03:38:48
+IP : 116.202.96.249
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' OR 2+558-558-1=0+0+0+1 --  ORDER BY members DESC' at line 1
+Raw SQL : SELECT id  FROM groups WHERE id > 0  AND catid = -1' OR 2+558-558-1=0+0+0+1 --  ORDER BY members DESC
+
+Time : 03:38:23
+IP : 54.149.57.186
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5807members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Pre op transgender looking for monstrous cocked Master and dominant Mistress') FROM groups WHERE id != 5807members  AND MATCH (title,slogan,description) AGAINST ('Pre op transgender looking for monstrous cocked Master and dominant Mistress') LIMIT 15
+
+Time : 03:36:53
+IP : 54.202.150.79
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4427members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('need some stress relief') FROM groups WHERE id != 4427members  AND MATCH (title,slogan,description) AGAINST ('need some stress relief') LIMIT 15
+
+Time : 03:32:58
+IP : 18.237.105.125
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5390members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Older BBW fuck session') FROM groups WHERE id != 5390members  AND MATCH (title,slogan,description) AGAINST ('Older BBW fuck session') LIMIT 15
+
+Time : 03:30:30
+IP : 38.78.251.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791349 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791349 AND `from` =  AND delto = 'n') OR (`from` = 791349 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:30:27
+IP : 38.78.251.7
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791349 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791349 AND `from` =  AND delto = 'n') OR (`from` = 791349 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:29:43
+IP : 35.167.252.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7869members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Mississippi sex meetup') FROM groups WHERE id != 7869members  AND MATCH (title,slogan,description) AGAINST ('Mississippi sex meetup') LIMIT 15
+
+Time : 03:27:34
+IP : 35.167.252.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '7198members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Nsa sex swap 4 couples, & Bisexuals') FROM groups WHERE id != 7198members  AND MATCH (title,slogan,description) AGAINST ('Nsa sex swap 4 couples, & Bisexuals') LIMIT 15
+
+Time : 03:14:15
+IP : 35.167.252.178
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5945members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Busty BBW gangbang') FROM groups WHERE id != 5945members  AND MATCH (title,slogan,description) AGAINST ('Busty BBW gangbang') LIMIT 15
+
+Time : 03:12:04
+IP : 34.220.243.37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5807galleries' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Pre op transgender looking for monstrous cocked Master and dominant Mistress') FROM groups WHERE id != 5807galleries  AND MATCH (title,slogan,description) AGAINST ('Pre op transgender looking for monstrous cocked Master and dominant Mistress') LIMIT 15
+
+Time : 03:00:29
+IP : 108.66.166.63
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791072 AND `from` =  AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:00:21
+IP : 108.66.166.63
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791072 AND `from` =  AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 03:00:15
+IP : 108.66.166.63
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791072 AND `from` =  AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:54:44
+IP : 108.66.166.63
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791072 AND `from` =  AND delto = 'n') OR (`from` = 791072 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:49:18
+IP : 69.247.246.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791366 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791366 AND `from` =  AND delto = 'n') OR (`from` = 791366 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:49:14
+IP : 69.247.246.142
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 791366 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 791366 AND `from` =  AND delto = 'n') OR (`from` = 791366 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:47:27
+IP : 35.90.12.72
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '5214members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('California Central Valley NSA hook ups Springville-Lemoore') FROM groups WHERE id != 5214members  AND MATCH (title,slogan,description) AGAINST ('California Central Valley NSA hook ups Springville-Lemoore') LIMIT 15
+
+Time : 02:43:24
+IP : 34.215.209.144
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '6345members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Random sex in the antelope valley') FROM groups WHERE id != 6345members  AND MATCH (title,slogan,description) AGAINST ('Random sex in the antelope valley') LIMIT 15
+
+Time : 02:18:51
+IP : 52.37.103.159
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '4563members' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('Gal\&#39;s in the Tri-state area&#8218; CA&#8218; NV&#8218; AZ') FROM groups WHERE id != 4563members  AND MATCH (title,slogan,description) AGAINST ('Gal\&#39;s in the Tri-state area&#8218; CA&#8218; NV&#8218; AZ') LIMIT 15
+
+Time : 01:26:09
+IP : 34.215.209.144
+SQLSTATE[42S22]: Column not found: 1054 Unknown column '266773followers' in 'where clause'
+Raw SQL : SELECT id FROM votes WHERE itemid = 266773followers AND type = 'member'

@@ -1,0 +1,84 @@
+{mobimages}
+<h1>Free Registration</h1>
+
+<form id="form1" name="form1" method="post" action="">
+ 
+<div class="mainleft">
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+	<tbody>
+		<tr>
+			<td width="35px;"><img src="{rooturl}/images/tick.jpg" width="25px" height="25px"/></td>
+			<td><strong>100% Free</strong></td>
+		</tr>
+		<tr>
+			<td><img src="{rooturl}/images/tick.jpg" width="25px" height="25px"/></td>
+			<td><strong>Single Click Unsubscribe Anytime</strong></td>
+		</tr>
+		<tr>
+			<td><img src="{rooturl}/images/tick.jpg" width="25px" height="25px"/></td>
+			<td><strong>We Never Disclose Your Details</strong></td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="space10"></div>
+<div class="divline"></div>
+<div class="space10"></div>
+<span class="formt">Username<span class="labelerror">{un2}</span></span>
+<input name="username" type="text" class="formfield {un1}" id="username" value="{username}" size="45" autocorrect="off" autocapitalize="off" autocomplete="off"/>
+<span class="formt">Email Address<span class="labelerror">{em2}</span></span>
+<input name="email" type="email" class="formfield {em1}" id="email"  style="outline:none;" value="{email}" size="45"/>
+<span class="formt">Password<span class="labelerror">{pa2}</span></span>
+<input name="password" type="password" class="formfield {pa1}" id="password" value="{password}" size="45" />
+<span class="formt">Date of Birth<span class="labelerror">{db2}</span></span>
+<div class="inline">
+<select name="day" class="formfield {db1}" id="day" >
+{day}
+</select>
+</div>
+<div class="inline">
+<select name="month" class="formfield {db1}" id="month">
+{month}
+</select>
+</div>
+<div class="inline">
+<select name="year" class="formfield {db1}" id="year">
+{year}
+</select>
+</div>
+<div class="clear"></div>
+
+<span class="formt">Gender</span>
+<select name="sex" class="formfield" id="sex">
+{sex}
+</select>
+<span class="formt">Looking For</span>
+<select name="lookingfor" size="1" class="formfield">
+<option value="F" selected="selected">Women</option>
+<option value="M">Men</option>
+<option value="CP">Couples</option>
+</select>
+<span class="formt">Country<span class="labelerror">{c2}</span></span>
+<select name="country" size="1" class="formfield {c1}">
+{countries} 
+</select>
+<div class="space10"></div>
+<input name="button" type="submit" class="button" id="button" value="Register" />
+&nbsp;&nbsp;&nbsp;<a href="../?mod=login">Already a Member?</a>
+
+</div>
+<div class="mainright">
+<div class="onlyfull">
+{flingsection}
+</div>
+
+
+<div class="space20"></div>
+
+<div class="onlymobile">
+{flingsection-mobile}
+</div>
+</div>
+</form>
+
+<div class="clear"></div>

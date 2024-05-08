@@ -1,0 +1,16 @@
+<h1>Edit Group Information</h1>
+<form id="form1" name="form1" method="post" action="">
+<span class="formt">Title<span class="grey"> &middot; Can Not be Edited</span></span>
+<input name="title" type="text" READONLY class="formfield" id="title" value="{title}" size="45"/>        
+<span class="formt">Slogan<span class="grey"> Not Required</span></span>
+<input name="slogan" type="text" class="formfield" value="{slogan}" size="45"/>        
+<span class="formt">Website<span class="grey"> Not Required</span></span>
+<input name="website" type="text" class="formfield" id="website" value="{website}" size="45"/>        
+<span class="formt">Description<span class="grey"> Not Required</span></span>
+<textarea name="description" rows="6" class="formfield" id="description" style="width:100%;resize: vertical;">{description}</textarea>
+<span class="formt">Group Category</span>
+<select name="cat" size="1" class="formfield">{cats}</select>
+<div class="space10"></div>
+<input name="button" type="submit" class="button" id="button" value="Save Information" />
+&nbsp;&nbsp;&nbsp;<a href="../?g={id}">Back to Group</a>
+</form> 

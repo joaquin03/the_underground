@@ -1,0 +1,85 @@
+Time : 18:40:45
+IP : 66.249.75.96
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND area =    ORDER BY stamp DESC' at line 1
+Raw SQL : SELECT id  FROM classifieds WHERE title != '' AND delstamp = 0 AND country = 3 AND state =  AND area =    ORDER BY stamp DESC
+
+Time : 15:12:02
+IP : 174.203.70.39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 'feed'' at line 1
+Raw SQL : SELECT id FROM votes WHERE itemid =  AND type = 'feed'
+
+Time : 10:12:17
+IP : 31.49.129.183
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 738886 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 738886 AND `from` =  AND delto = 'n') OR (`from` = 738886 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 08:16:58
+IP : 86.11.61.228
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('London Oral Pleasures * for those who love to give/receive oral as much if not more than sex itself') FROM groups WHERE id != 5065/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('London Oral Pleasures * for those who love to give/receive oral as much if not more than sex itself') LIMIT 15
+
+Time : 08:16:58
+IP : 86.11.61.228
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT id, MATCH (title,slogan,description) AGAINST ('London Oral Pleasures * for those who love to give/receive oral as much if not more than sex itself') FROM groups WHERE id != 5065/favicon.ico  AND MATCH (title,slogan,description) AGAINST ('London Oral Pleasures * for those who love to give/receive oral as much if not more than sex itself') LIMIT 15
+
+Time : 08:13:27
+IP : 169.150.254.91
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 06:07:08
+IP : 62.182.98.167
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 736588 AND `from` =  AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:07:04
+IP : 62.182.98.167
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 736588 AND `from` =  AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:06:54
+IP : 62.182.98.167
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 736588 AND `from` =  AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 06:06:49
+IP : 62.182.98.167
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = ?)) ORDER BY stam' at line 1
+Raw SQL : SELECT * FROM pm WHERE ((`to` = 736588 AND `from` =  AND delto = 'n') OR (`from` = 736588 AND `to` =  AND delfrom = :v)) ORDER BY stamp DESC
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+
+Time : 02:10:14
+IP : 92.60.40.238
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'favicon.ico' in 'where clause'
+Raw SQL : SELECT * FROM storycategories WHERE id != 16/favicon.ico ORDER BY stories DESC LIMIT 5
+

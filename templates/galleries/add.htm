@@ -1,0 +1,25 @@
+<h1>Edit: {title}</h1>
+
+<div class="wideleft">
+<h2>Add a Photo</h2>
+<form id="form1" name="form1" method="post" enctype="multipart/form-data" action="">
+<span class="formt">Image<span class="labelerror">{i2}</span></span>
+<input name="file" type="file" class="formfield {i1}" id="file" />
+<div class="space10"></div>
+<input name="button" type="submit" class="button" id="button" value="Upload"/>
+</form>
+
+<div class="space30"></div>
+<h2>Current Images</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="1">
+  <tbody>
+      {images}
+  </tbody>
+</table>
+
+
+</div>
+<div class="narrowright">
+{lastrightad}
+</div>
+<div class="clear"></div>
