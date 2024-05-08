@@ -1,10 +1,13 @@
 <?php
+
+include_once('phpfiles/helpers.php');
+loadEnvironmentVariables(__DIR__ . '/.env');
 /// DATABASE
-$dbhost = 'localhost';
+$dbhost = getenv('DB_HOST');
 //$dbuser = 'theusc';
-$dbuser = 'root';
+$dbuser = getenv('DB_USER');
 //$dbpassword = 'Cggy6#69';
-$dbpassword = '';
+$dbpassword = getenv('DB_PASS');
 //$dbname = 'theusc';
 $dbname = 'theunderground';
 $emailpassword = 'y0p8Zg9#w';
@@ -16,21 +19,21 @@ $array['cy'] = date("Y",$time);
 
 /// SITE INFO
 //$rooturl = 'https://www.theundergroundsexclub.com';
-$rooturl = 'http://localhost:8000';
+$rooturl = getenv('URL_BASE');
 $array['rooturl'] = $rooturl;
 $domainonly = 'theundergroundsexclub.com';
 $array['domainonly'] = $domainonly;
 //$serverpath = '/var/www/vhosts/theundergroundsexclub.com/httpdocs';
-$serverpath = '/Users/joaquinanduano/Sites/theundergroundsexclub.com/';
+$serverpath = getenv('SERVER_PATH');
 $pageurl = $rooturl.$_SERVER['REQUEST_URI'];
 $array['sitename'] = 'The Underground Sex Club';
 
 /// STATIC URLS
 $staticurl = 'https://static.theundergroundsexclub.com';
-$staticurl = 'http://localhost:8000';
+$staticurl = getenv('URL_BASE');;
 $array['staticurl'] = $staticurl;
 $staticads = 'https://staticads.theundergroundsexclub.com';
-$staticads = 'http://localhost:8000';
+$staticads = getenv('URL_BASE_STATIC');
 $array['staticads'] = $staticads;
 
 /// ADMIN

@@ -1,5 +1,8 @@
 <?php
 require("Log.class.php");
+
+include_once('phpfiles/helpers.php');
+loadEnvironmentVariables(__DIR__ . '/.env');
 class DB
 {
 	# @object, The PDO object
@@ -45,9 +48,9 @@ class DB
 	*/
 		private function Connect()
 		{
-			$dbname = 'theunderground';
-			$dbuser = 'root';
-			$dbpassword = '';
+			$dbname = getenv('DB_NAME');
+			$dbuser = getenv('DB_USER');;
+			$dbpassword = getenv('DB_PASS');;
 			$dbhost = '127.0.0.1';
 		if(file_exists('./../configfile.php'))
     		include './../configfile.php';
