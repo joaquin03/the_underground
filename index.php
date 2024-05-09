@@ -11,7 +11,7 @@ $ltstart = $ltt;
 
 
 
-
+include_once('modules/legal/legal_modal.php');
 include('configfile.php');
 
 
@@ -132,6 +132,13 @@ if($_GET['mod'] == 'terms')
 header("HTTP/1.1 301 Moved Permanently");
 header("Location: ".$rooturl."/?mod=legal&file=terms");
 exit;
+}
+
+if($_GET['mod'] == 'acceptable')
+{
+  header("HTTP/1.1 301 Moved Permanently");
+  header("Location: ".$rooturl."/?mod=legal&file=acceptable");
+  exit;
 }
 
 
