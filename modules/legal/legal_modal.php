@@ -105,7 +105,7 @@
 ?>
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <h1>Warning: This Website is for Adults Only!</h1>
+    <h1>Warning: This Website is for Adults Only</h1>
     <p>
       This Website is for use solely by individuals at least 18 years old and the age of majority or age of
       consent as determined by the laws of the jurisdiction from which they are accessing the Website. Age
@@ -132,7 +132,7 @@
       <button onclick="disagree()" class="disagree">I Disagree</button>
     </div>
 
-    <p>Last update date: 5/9/2024</p>
+    <p>Last update date: 05/09/2024</p>
   </div>
 </div>
 <script>
