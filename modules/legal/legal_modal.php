@@ -137,13 +137,13 @@
 </div>
 <script>
   window.onload = function() {
-    if (sessionStorage.getItem("agreed") !== "true") {
+    if (localStorage.getItem("agreed") !== "true") {
       document.getElementById("myModal").style.display = "flex";
     }
   };
 
   function agree() {
-    sessionStorage.setItem("agreed", "true");
+    localStorage.setItem("agreed", "true");
     document.getElementById("myModal").style.display = "none";
   }
 
