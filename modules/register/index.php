@@ -287,6 +287,11 @@ $ok = 'n';$array['c1'] = 'error';	$array['c2'] = 'is Required';
 }
 
 
+////// Check for terms
+if (!isset($_POST['tos'])) {
+$ok = 'n';$array['c1'] = 'error';	$array['c2'] = 'You must agree to the terms';
+}
+
 
 ///////////////////////////////////////// ALL OK
 if($ok == 'y')
@@ -303,8 +308,22 @@ $usercode = $short->createusercode();
 list($zip,$town) = explode("|", $short->zipfromip($userip));
 $zip = ($zip == '') ? 'na': $zip;
 ////////////////////////////// ADD USER
-$insert = $db->query("INSERT INTO members(username,email,password,regdate,regip,dob_date,sex,country,usercode,zipcode,town) VALUES(:un,:em,:pw,:rd,:ip,:dob,:sex,:c,:uc,:z,:t)",
-array("un"=>$post['username'],"em"=>$post['email'],"pw"=>$password,"rd"=>$time,"ip"=>$userip,"dob"=>$dob,"sex"=>$post['sex'],"c"=>$post['country'],"uc"=>$usercode,"z"=>$zip,"t"=>$town),PDO::FETCH_ASSOC,"n");
+$insert = $db->query(
+  "INSERT INTO members(username,email,password,regdate,regip,dob_date,sex,country,usercode,zipcode,town,tos_at) VALUES(:un,:em,:pw,:rd,:ip,:dob,:sex,:c,:uc,:z,:t,:tos_at)",
+  array(
+    "un"=>$post['username'],
+    "em"=>$post['email'],
+    "pw"=>$password,
+    "rd"=>$time,
+    "ip"=>$userip,
+    "dob"=>$dob,
+    "sex"=>$post['sex'],
+    "c"=>$post['country'],
+    "uc"=>$usercode,
+    "z"=>$zip,
+    "t"=>$town,
+    "tos_at"=>date("Y-m-d H:i:s")),
+PDO::FETCH_ASSOC,"n");
 
 $userid = $db->lastInsertId();
 

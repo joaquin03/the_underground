@@ -7,6 +7,11 @@ exit;
 $page->page .= $page->get_temp('templates/myhome/index.htm');
 $array['pagetitle'] = 'Dashboard';
 
+
+if ($array['show_tos'] ?? false) {
+  include_once('modules/legal/legal_model_users.php');
+}
+
 //
 $id = $member['id'];
 

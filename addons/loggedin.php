@@ -18,6 +18,13 @@ header("Location: ".$array['rooturl']);
 exit;
 }
 
+////// Validate if accept tos
+  if ($member['tos_at'] ?? false){
+    $array['show_tos']=false;
+  } else {
+    $array['show_tos']=true;
+  }
+
 
 /// MARK AS MODERATOR
 $moderator = ($memberdata['id'] == $sysadminid) ? 'y': 'n';

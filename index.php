@@ -142,6 +142,7 @@ if($_GET['mod'] == 'acceptable')
 }
 
 
+
 ////////////////////////////////////////////////////////////////////////////////// ABUSE
 if (strpos($_SERVER['REQUEST_URI'], 'f-y_') !== false) {
 header("HTTP/1.1 301 Moved Permanently");

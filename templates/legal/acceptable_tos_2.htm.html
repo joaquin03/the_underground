@@ -1,0 +1,40 @@
+<style>
+  .modal-tos li{
+    margin-bottom: 10px;
+  }
+  .modal-tos li::before {
+    content: none;
+  }
+  .modal-tos ol >li{
+    padding-left:1em;
+  }
+  .modal-tos ol >li > ol{
+    padding-left: 1em;
+  }
+  @media (max-width: 576px) {
+    .modal-tos .modal-dialog {
+      margin: 1rem;
+    }
+  }
+
+</style>
+
+<div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="memberModalLabel">Update in terms of service</h5>
+        <p>The Terms of Service have been updated. Please review and accept the new terms to continue using our services.</p>
+        <p>You can review the updated Terms of Service <a href="/?mod=legal&file=terms">here</a>.</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="updateMemberForm" method="post" action="/?mod=legal&file=tos_accept">
+          <button type="submit" class="btn btn-primary">I accept the updated Terms of Service</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

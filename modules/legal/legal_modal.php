@@ -33,7 +33,7 @@
     margin: auto; /* Centered horizontally and vertically */
     padding: 40px;
     border: 1px solid #888;
-    width: 50%; /* Adapt to the screen size */
+    width: 60%; /* Adapt to the screen size */
     height: auto; /* Adapt content height */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for 3D effect */
@@ -43,22 +43,58 @@
     align-items: center;
   }
 
+  @media (max-width: 768px) {
+    p{
+      font-size: 11px !important;
+    }
+    h1{
+      font-size: 35px !important;
+    }
+    .modal-content {
+      height: fit-content;
+      width: 90%;
+      margin: 1rem;
+    }
+  }
+
   .modal-content p, .modal-content ul {
     text-align: justify; /* Justify text for better readability */
   }
 
-  button {
+
+  .modal-content button {
     padding: 10px 20px;
     margin-top: 20px;
     cursor: pointer; /* Pointer/hand icon */
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
+
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners for the button */
     font-size: 16px; /* Larger font size */
+
+  }
+  .agree{
+    flex: 1;
+    margin-right: 10px;
+    background-color: #FF4A4A;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .disagree{
+    flex: 1;
+    background-color: #5c4545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    adding: 10px;
+    font-size: 16px;
+    cursor: pointer;
   }
 
-  button:hover {
+  .modal-content button:hover {
     opacity: 0.8; /* Slightly see-through */
   }
 </style>
@@ -92,8 +128,8 @@
         <p><strong>If you do not agree, click on the “I Disagree” button below and leave the Website.</strong></p>      <!-- More items -->
     </ul>
     <div style="display: flex; width: 100%;">
-      <button onclick="agree()" style="flex: 1; margin-right: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; padding: 10px; font-size: 16px; cursor: pointer;">I Agree</button>
-      <button onclick="disagree()" style="flex: 1; background-color: darkred; color: white; border: none; border-radius: 5px; padding: 10px; font-size: 16px; cursor: pointer;">I Disagree</button>
+      <button onclick="agree()" class="agree">I Agree</button>
+      <button onclick="disagree()" class="disagree">I Disagree</button>
     </div>
 
     <p>Last update date: 5/9/2024</p>
