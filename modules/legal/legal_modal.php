@@ -17,50 +17,45 @@
 
 <style>
   .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 999; /* Sit on top */
+    display: none;
+    position: fixed;
+    z-index: 999;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.98);
   }
 
   .modal-content {
-    background-color: #fefefe;
-    margin: auto; /* Centered horizontally and vertically */
-    padding: 40px;
+    margin: auto;
+    padding: 10px 30px;
     border: 1px solid #888;
-    width: 60%; /* Adapt to the screen size */
-    height: auto; /* Adapt content height */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for 3D effect */
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #222;
+    color: #e2e2e2;
+    box-shadow: 0 0 40px 5px rgba(255,255,255,.15);
   }
-
-  @media (max-width: 768px) {
-    p{
-      font-size: 11px !important;
-    }
-    h1{
-      font-size: 35px !important;
-    }
-    .modal-content {
-      height: fit-content;
-      width: 90%;
-      margin: 1rem;
-    }
+  .modal .title-container {
+    width: 90%;
+  }
+  .modal .title-modal {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
   }
 
   .modal-content p, .modal-content ul {
     text-align: justify; /* Justify text for better readability */
   }
-
 
   .modal-content button {
     padding: 10px 20px;
@@ -70,7 +65,6 @@
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners for the button */
     font-size: 16px; /* Larger font size */
-
   }
   .agree{
     flex: 1;
@@ -85,7 +79,7 @@
   }
   .disagree{
     flex: 1;
-    background-color: #5c4545;
+    background-color: #454545;
     color: white;
     border: none;
     border-radius: 5px;
@@ -93,9 +87,41 @@
     font-size: 16px;
     cursor: pointer;
   }
-
   .modal-content button:hover {
     opacity: 0.8; /* Slightly see-through */
+  }
+
+
+  @media (max-width: 768px) {
+    .modal-content {
+      padding: 10px 15px;
+    }
+
+    .modal p{
+      font-size: 11px !important;
+    }
+    .modal .title-modal{
+      font-size: 19px !important;
+    }
+    .modal-content {
+      height: fit-content;
+      width: 95%;
+      margin: 0.5rem;
+    }
+    .modal-content ul {
+      padding: 0;
+      margin-top: 0px;
+    }
+    .modal-content ul li {
+      list-style-type: none;
+      font-size: 11px;
+    }
+    .modal-content button {
+      margin-top: 0px;
+    }
+  }
+
+
   }
 </style>
 </head>
@@ -105,7 +131,10 @@
 ?>
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <h1>Warning: This Website is for Adults Only</h1>
+    <span class="title-container">
+      <span class="logo-image"></span>
+      <span class="title-modal">Warning: This Website is for Adults Only</span>
+    </span>
     <p>
       This Website is for use solely by individuals at least 18 years old and the age of majority or age of
       consent as determined by the laws of the jurisdiction from which they are accessing the Website. Age
