@@ -43,14 +43,21 @@
     color: #e2e2e2;
     box-shadow: 0 0 40px 5px rgba(255,255,255,.15);
   }
+
   .modal .title-container {
-    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  .modal .title-container .logo{
+    height: 50px;
+    margin-right: 20px;
   }
   .modal .title-modal {
     font-size: 24px;
     text-align: center;
     display: block;
-    margin-top: 20px;
+    margin-top: 6px;
   }
 
   .modal-content p, .modal-content ul {
@@ -131,10 +138,12 @@
 ?>
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <span class="title-container">
-      <span class="logo-image"></span>
-      <span class="title-modal">Warning: This Website is for Adults Only</span>
-    </span>
+    <div class="modal-header">
+      <span class="title-container">
+         <img src="/images/layout/logo_under.png" class="logo">
+        <span class="title-modal">Warning: This Website is for Adults Only</span>
+      </span>
+    </div>
     <p>
       This Website is for use solely by individuals at least 18 years old and the age of majority or age of
       consent as determined by the laws of the jurisdiction from which they are accessing the Website. Age
