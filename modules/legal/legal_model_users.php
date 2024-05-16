@@ -45,6 +45,10 @@
   .modal-content p, .modal-content ul {
     text-align: justify; /* Justify text for better readability */
   }
+  .modal-content a{
+    text-decoration: underline !important;
+    color: #FF4A4A;
+  }
 
   .modal-content button {
     padding: 10px 20px;
