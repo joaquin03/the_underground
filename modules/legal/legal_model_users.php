@@ -47,7 +47,7 @@
   }
   .modal-content a{
     text-decoration: underline !important;
-    color: #FF4A4A;
+    color: #FFF !important;
   }
 
   .modal-content button {
@@ -99,7 +99,9 @@
      width: 80%;
     }
   }
+  .modal-content a{
 
+  }
   .modal-content button:hover {
     opacity: 0.8; /* Slightly see-through */
   }
@@ -117,14 +119,24 @@
           <img src="/images/layout/logo_under.png" class="logo">
           <span class="title-modal">Update in terms of service</span>
         </span>
-        <p>The Terms of Service have been updated. You can review the updated Terms of Service <a target="_blank" href="/?mod=legal&file=terms">here</a>.</p>
+        <p>By logging in, you agree to the <a target="_blank" href="/?mod=legal&file=terms">Terms of Use</a>, Acceptable Use and <a target="_blank" href="/?mod=legal&file=privacy">Privacy Policy.</a></p>
         <p>Please review and accept the new terms to continue using our services. </p>
       </div>
       <div class="modal-body">
         <form id="updateMemberForm" method="post" action="/?mod=legal&file=tos_accept">
-          <button type="submit" class="agree">I accept the updated Terms of Service</button>
+          <div style="display: flex; width: 100%;">
+            <button type="submit" class="agree">I accept the updated Terms of Service</button>
+            <button onclick="disagree()" class="disagree" type="button">Decline and exit</button>
+          </div>
         </form>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+
+  function disagree(event) {
+    window.location.href = "../?mod=logout";
+  }
+</script>
