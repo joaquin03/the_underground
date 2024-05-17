@@ -117,16 +117,16 @@
       <div class="modal-header">
         <span class="title-container">
           <img src="/images/layout/logo_under.png" class="logo">
-          <span class="title-modal">Update in terms of service</span>
+          <span class="title-modal">Update to the Terms of Use and Privacy Policy</span>
         </span>
-        <p>By logging in, you agree to the <a target="_blank" href="/?mod=legal&file=terms">Terms of Use</a>, Acceptable Use and <a target="_blank" href="/?mod=legal&file=privacy">Privacy Policy.</a></p>
-        <p>Please review and accept the new terms to continue using our services. </p>
+        <p style="text-align: center">The <a target="_blank" href="/?mod=legal&file=terms">Terms of Use</a> and <a target="_blank" href="/?mod=legal&file=privacy">Privacy Policy</a> have been updated.
+        <p style="text-align: center">Please review and accept the new terms to continue using our services. </p>
       </div>
       <div class="modal-body">
         <form id="updateMemberForm" method="post" action="/?mod=legal&file=tos_accept">
           <div style="display: flex; width: 100%;">
-            <button type="submit" class="agree">I accept the updated Terms of Service</button>
-            <button onclick="disagree()" class="disagree" type="button">Decline and exit</button>
+            <button type="submit" class="agree">Accept</button>
+            <button onclick="disagree()" class="disagree" type="button">Deny</button>
           </div>
         </form>
       </div>

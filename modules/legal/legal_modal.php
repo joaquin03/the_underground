@@ -141,7 +141,7 @@
     <div class="modal-header">
       <span class="title-container">
          <img src="/images/layout/logo_under.png" class="logo">
-        <span class="title-modal">Warning: This Website is for Adults Only</span>
+        <span class="title-modal">This Website is for Adults Only</span>
       </span>
     </div>
     <p>
