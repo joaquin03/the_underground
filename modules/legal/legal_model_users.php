@@ -137,6 +137,6 @@
 <script>
 
   function disagree(event) {
-    window.location.href = "../?mod=logout";
+    window.location.href = "/?mod=logout";
   }
 </script>
