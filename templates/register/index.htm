@@ -1,4 +1,14 @@
 
+<style>
+  .tos-error {
+    display: none;
+    color: red;
+    font-size: 12px;
+  }
+
+
+</style>
+
   <div class="onlymobile">
     {mimages}
   </div>
@@ -49,9 +59,10 @@
 {countries}
 </select>
 <label class="formt" for="tos" >
-  <input name="tos" type="checkbox" id="tos" value="1" required/>
+  <input name="tos" type="checkbox" id="tos" value="1" />
   I agree to the
   <a href="/?mod=legal&file=terms" target="_blank">terms of services</a>
+  <div id="tosError" class="tos-error">You must agree to the terms of services</div>
 </label>
 
 <div class="space10"></div>
@@ -84,3 +95,18 @@
 </form>
 
 <div class="clear"></div>
+
+<script>
+  document.getElementById('form1').addEventListener('submit', function(event) {
+    var tosCheckbox = document.getElementById('tos');
+    var tosError = document.getElementById('tosError');
+
+    if (!tosCheckbox.checked) {
+      event.preventDefault();
+      tosError.style.display = 'block';
+      tosCheckbox.focus();
+    } else {
+      tosError.style.display = 'none';
+    }
+  });
+</script>
