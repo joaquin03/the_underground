@@ -309,8 +309,10 @@ list($zip,$town) = explode("|", $short->zipfromip($userip));
 $zip = ($zip == '') ? 'na': $zip;
 ////////////////////////////// ADD USER
 $insert = $db->query(
-  "INSERT INTO members(username,email,password,regdate,regip,dob_date,sex,country,usercode,zipcode,town,tos_at) VALUES(:un,:em,:pw,:rd,:ip,:dob,:sex,:c,:uc,:z,:t,:tos_at)",
-  array(
+  "INSERT INTO
+    members(username,email,password,regdate,regip,dob_date,sex,country,usercode,zipcode,town,tos_at, tos_accepted)
+    VALUES(:un,:em,:pw,:rd,:ip,:dob,:sex,:c,:uc,:z,:t,:tos_at,:tos_accepted)",
+  [
     "un"=>$post['username'],
     "em"=>$post['email'],
     "pw"=>$password,
@@ -322,7 +324,8 @@ $insert = $db->query(
     "uc"=>$usercode,
     "z"=>$zip,
     "t"=>$town,
-    "tos_at"=>date("Y-m-d H:i:s")),
+    "tos_at"=>date("Y-m-d H:i:s"),
+    "tos_accepted" => 1,],
 PDO::FETCH_ASSOC,"n");
 
 $userid = $db->lastInsertId();
