@@ -223,10 +223,10 @@ curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($curl_connection, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt($curl_connection, CURLOPT_POSTFIELDS, $post_string);
-//$result = curl_exec($curl_connection);
-//curl_error($curl_connection);
+$result = curl_exec($curl_connection);
+curl_error($curl_connection);
 curl_close($curl_connection);
-return '1||GUID=90000'.rand(1000,9999);
+//return '1||GUID=90000'.rand(1000,9999);
 
 return $result;
 }
