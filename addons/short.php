@@ -1,6 +1,5 @@
 <?php
-class
-short
+class short
 {
 var $page,$db;
 

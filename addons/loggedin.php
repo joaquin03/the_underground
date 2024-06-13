@@ -3,8 +3,8 @@
 
 $member = $db->row("SELECT * FROM members WHERE usercode = :uc AND validated = 'y'",array("uc"=>$_SESSION['active']));
 ////////////  MODIFY MENU SYSTEM TO SHOW LOGGED IN
-$array['hometext'] = 'Dashboard';
-$array['hometext2'] = 'Dashboard';
+$array['hometext'] = 'My Account';
+$array['hometext2'] = 'My Account';
 $array['pagelist'] = '';
 
 
@@ -79,9 +79,9 @@ $(".cnum" + id).html(parseInt($(".cnum" + id).html(), 10)+1)
 /// MOBILE VERSION
 if($mobilemod == '-mobile')
 {
-$array['loggedinsection'] = '<a href="../?mod=myhome&file=settings"><span class="menuitem menured">ACCOUNT SETTINGS</span></a>
+$array['loggedinsection'] = '
 <a href="../?mod=logout"><span class="menuitem menured">LOGOUT</span></a>';
-$array['membersection'] = '<a href="../"><span class="menuitem menured">DASHBOARD</span></a>
+$array['membersection'] = '<a href="../"><span class="menuitem menured">My Account</span></a>
 <a href="../?mod=myhome&file=mail"><span class="menuitem menured">MESSAGES'.$mailcount.'</span></a>
 <a href="../?mod=myhome&file=notifications"><span class="menuitem menured">NOTIFICATIONS'.$notifycount.'</span></a>';
 
@@ -96,7 +96,6 @@ else
 {
 $array['loggedinsection'] = '
 <a href="../?mod=logout"><span class="menuitem menured">Logout</span></a>
-<a href="../?mod=myhome&file=settings"><span class="menuitem menured">Settings</span></a>
 <a href="../?mod=myhome&file=notifications"><span class="menuitem menured">Notifications'.$notifycount.'</span></a>
 <a href="../?mod=myhome&file=mail"><span class="menuitem menured">Mail'.$mailcount.'</span></a>';
 

@@ -10,7 +10,7 @@ exit;
   }
 
 $page->page .= $page->get_temp('templates/myhome/index.htm');
-$array['pagetitle'] = 'Dashboard';
+$array['pagetitle'] = 'My Account';
 
 
 
@@ -73,9 +73,6 @@ $_SESSION['rmessage'] = 'No User Found';
 header("Location: ".$array['rooturl']."");
 exit;
 }
-
-
-
 
 ///////  GET BOT COUNT
 $google = $db->query("SELECT id FROM s_visitors WHERE bot LIKE :b",array("b"=>'%Googlebot%'),PDO::FETCH_NUM,'y');
@@ -143,11 +140,23 @@ $vplur = ($member['views'] == 1) ? '': 's';
 $array['menu'] = '';
 $array['menu-mobile'] = '';
 $array['menu'.$mobilemod.''] = '<h2>Your Profile</h2>
-<span class="is minieye"></span>'.number_format($member['views']).' View'.$vplur.'
-<div class="space5"></div>
-<span class="is miniuser"></span><a href="../?u='.$member['id'].'&view=followers">'.number_format($tot).' Follower'.$fplur.'</a>
-<div class="space20"></div>
-<a href="../?u='.$member['id'].'">View Profile</a> &middot; <a href="../?mod=myhome&file=info">Edit Profile Info</a> &middot; <a href="../?mod=myhome&file=image">Edit Profile Photo</a>
+<span class="is minieye"><i class="fas fa-eye icon-circle"></i></span>'.number_format($member['views']).' View'.$vplur.'
+<div class="space10"></div>
+<span class="is miniuser"><i class="fas fa-user-friends icon-circle"></i></span><a href="../?u='.$member['id'].'&view=followers">'.number_format($tot).' Follower'.$fplur.'</a>
+
+<div class="space10"></div>
+<span class="is miniuser"><i class="fas fa-user icon-circle"></i></span><a href="../?u='.$member['id'].'">View Profile</a>
+
+<div class="space10"></div>
+<span class="is miniuser"><i class="fas fa-edit icon-circle"></i></span><a href="../?mod=myhome&file=info">Edit Profile Info</a>
+
+<div class="space10"></div>
+<span class="is miniuser"><i class="fas fa-camera icon-circle"></i></span><a href="../?mod=myhome&file=image">Edit Profile Photo</a>
+
+<div class="space10"></div>
+<span class="is miniuser"><i class="fas fa-bell icon-circle"></i></span><a href="/?mod=myhome&file=settings">Notifications Sttings</a>
+
+
 <div class="space10"></div>
 <div class="space20"></div>';
 
@@ -175,16 +184,19 @@ $personals = ($tot == 0) ? 'No Personal Ads':'<a href="../?u='.$id.'&view=person
 
 
 
-$array['mycontent'] = '<span class="is miniphoto"></span>'.$galleries.' <span class="lightgrey">&middot;</span> <a href="../?mod=galleries&file=new">Add a Gallery</a>
-<div class="space5"></div>
-<span class="is minigroup"></span>'.$groups.' <span class="lightgrey">&middot;</span> <a href="../?mod=groups&file=new">Create a Group</a> <span class="lightgrey">&middot;</span> <a href="../?mod=groups">Join Groups</a>
-<div class="space5"></div>
-<span class="is ministory"></span>'.$stories.' <span class="lightgrey">&middot;</span> <a href="../?mod=stories&file=new">Write a Sex Story</a>
-<div class="space5"></div>
-<span class="is miniforum"></span>'.$forum.' <span class="lightgrey">&middot;</span> <a href="../?mod=forum&file=add">Create a Topic</a>
-<div class="space5"></div>
-<span class="is miniad"></span>'.$personals.' <span class="lightgrey">&middot;</span> <a href="../?mod=personals&file=new">Post an Ad</a>
-<div class="space5"></div>';
+$array['mycontent'] = '<span class="is miniphoto"><i class="fas fa-image icon-circle"></i></span>'.$galleries.' <span class="lightgrey">&middot;</span> <a href="../?mod=galleries&file=new">Add a Gallery</a>
+<div class="space10"></div>
+<span class="is group"><i class="fas fa-users icon-circle"></i></span>'.$groups.' <span class="lightgrey">&middot;</span> <a href="../?mod=groups&file=new">Create a Group</a> <span class="lightgrey">&middot;</span> <a href="../?mod=groups">Join Groups</a>
+
+<div class="space10"></div>
+<span class="is ministory"><i class="fas fa-book icon-circle"></i></span>'.$stories.' <span class="lightgrey">&middot;</span> <a href="../?mod=stories&file=new">Write a Sex Story</a>
+
+<div class="space10"></div>
+<span class="is miniforum"><i class="fas fa-comments icon-circle"></i></span>'.$forum.' <span class="lightgrey">&middot;</span> <a href="../?mod=forum&file=add">Create a Topic</a>
+
+<div class="space10"></div>
+<span class="is miniad"><i class="fas fa-ad icon-circle"></i></span>'.$personals.' <span class="lightgrey">&middot;</span> <a href="../?mod=personals&file=new">Post an Ad</a>
+<div class="space10"></div>';
 
 
 
