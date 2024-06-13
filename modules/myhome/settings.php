@@ -4,7 +4,7 @@ if(!isset($_SESSION['userid']))
 header("Location:".$array['rooturl']."/?mod=login");
 exit;
 }
-$array['pagetitle'] = 'Account Settings';
+$array['pagetitle'] = 'Notifications Settings';
 $array['pagedescription'] = '';
 $page->page .= $page->get_temp('templates/myhome/settings.htm');
 
