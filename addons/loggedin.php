@@ -99,7 +99,7 @@ $array['loggedinsection'] = '
 ';
 
 $array['loggedInMenu'] = '
-    <a href="/?mod=active"><span class="menuitem">ACTIVE NOW</span></a>
+    <a href="/?mod=active"><span class="menuitem {ma-active}">ACTIVE NOW</span></a>
 ';
 
 
