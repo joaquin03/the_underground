@@ -77,20 +77,17 @@ $(".cnum" + id).html(parseInt($(".cnum" + id).html(), 10)+1)
 
 
 /// MOBILE VERSION
-if($mobilemod == '-mobile')
-{
-$array['loggedinsection'] = '
+if($mobilemod == '-mobile') {
+  $array['membersection'] = '<a href="../"><span class="menuitem menured">MY ACCOUNT</span></a>
+<a href="../?mod=myhome&file=mail"><span class="menuitem menured">MESSAGES' . $mailcount . '</span></a>
+<a href="../?mod=myhome&file=notifications"><span class="menuitem menured">NOTIFICATIONS' . $notifycount . '</span></a>
+';
+  $array['loggedinsection'] = '
 <a href="../?mod=logout"><span class="menuitem menured">LOGOUT</span></a>';
-$array['membersection'] = '<a href="../"><span class="menuitem menured">MY ACCOUNT</span></a>
-<a href="../?mod=myhome&file=mail"><span class="menuitem menured">MESSAGES'.$mailcount.'</span></a>
-<a href="../?mod=myhome&file=notifications"><span class="menuitem menured">NOTIFICATIONS'.$notifycount.'</span></a>
-<a href="/?mod=active"><span class="menuitem menured">ACTIVE NOW</span></a>';
 
-
-
+  $array['loggedInMenu'] = '
+<a href="/?mod=active"><span class="menuitem">ACTIVE NOW</span></a>';
 }
-
-
 
 ///// FULL VERSION
 else
@@ -99,8 +96,11 @@ $array['loggedinsection'] = '
 <a href="../?mod=logout"><span class="menuitem menured">Logout</span></a>
 <a href="../?mod=myhome&file=notifications"><span class="menuitem menured">Notifications'.$notifycount.'</span></a>
 <a href="../?mod=myhome&file=mail"><span class="menuitem menured">Mail'.$mailcount.'</span></a>
-<a href="/?mod=active"><span class="menuitem menured">ACTIVE NOW</span></a>';
+';
 
+$array['loggedInMenu'] = '
+    <a href="/?mod=active"><span class="menuitem">ACTIVE NOW</span></a>
+';
 
 
 

@@ -6,7 +6,7 @@ $array['hometext2'] = 'Home';
 $array['membersection'] = '';
 $array['loggedinsection'] = '<a href="../?mod=login"><span class="menuitem menured">LOGIN</span></a>
 <a href="../?mod=register"><span class="menuitem menured">REGISTER</span></a>';
-
+$array['loggedInMenu'] = '';
 
 ///// GET SOME PAGES FOR THE BOTTOM
 $setting = $db->row("SELECT value FROM site_settings WHERE `name` = 'page list'");
