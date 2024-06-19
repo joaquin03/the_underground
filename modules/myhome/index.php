@@ -154,7 +154,7 @@ $array['menu'.$mobilemod.''] = '<h2>Your Profile</h2>
 <span class="is miniuser"><i class="fas fa-camera icon-circle"></i></span><a href="../?mod=myhome&file=image">Edit Profile Photo</a>
 
 <div class="space10"></div>
-<span class="is miniuser"><i class="fas fa-bell icon-circle"></i></span><a href="/?mod=myhome&file=settings">Notifications Sttings</a>
+<span class="is miniuser"><i class="fas fa-bell icon-circle"></i></span><a href="/?mod=myhome&file=settings">Notifications Settings</a>
 
 
 <div class="space10"></div>

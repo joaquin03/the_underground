@@ -102,7 +102,7 @@ $db->query("UPDATE members SET validated = :y WHERE id = :id", array("y"=>'y',"i
 
 ///
 $_SESSION['gmessage'] = 'Email Validated &middot; You can now login';
-header("Location:".$array['rooturl']."/?mod=login");
+header("Location:".$array['rooturl']."/?mod=login&action=validated");
 exit;
 }
 
